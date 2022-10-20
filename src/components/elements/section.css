@@ -1,0 +1,13 @@
+.card--img{
+    height: 42px;
+    width: 42px;
+}
+.section-btn{
+    border: 1px solid  #E6007AFF;
+   
+    color:  #E6007AFF;
+}
+.section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}

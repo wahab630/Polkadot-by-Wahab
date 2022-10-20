@@ -1,0 +1,13 @@
+.footercolor {
+  color: white;
+}
+li a {
+  text-decoration: none;
+  color: #e9ecefff;
+}
+.footer-btn {
+  background-color: transparent;
+  color: white;
+
+  border: 1px solid #e6007aff;
+}

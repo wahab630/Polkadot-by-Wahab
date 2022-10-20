@@ -1,0 +1,14 @@
+.nc-img{
+    height: 152px;
+    width: 152px;
+}
+.NC-bg{
+    padding-bottom: 100px;
+}
+.nc-btn{
+    background-color: transparent;
+    color: white;
+    
+    border: 1px solid #E6007AFF;
+    
+}
