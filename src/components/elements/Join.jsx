@@ -16,9 +16,9 @@ const Join = () => {
               </a>
               <span className="d-block mt-3">
                 or learn about how to{" "}
-                <a href="/build" className="text-underline">
+                <span className="underline">
                   build on Polkadot
-                </a>
+                </span>
                 .
               </span>
             </div>

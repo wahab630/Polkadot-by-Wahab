@@ -14,14 +14,9 @@ const Opensource = () => {
             </div>
             <div className="col-sm-12 col-lg-6">
               <p className="lead text-white">
-                Polkadot is an open-source project founded by the{" "}
-                <a
-                  href="https://web3.foundation/"
-                 
-                  className="text-underline"
-                >
-                  Web3 Foundation
-                </a>
+                Polkadot is an open-source project founded by the{" "} <br />
+                
+                <span className=" text-underline"> Web3 Foundation</span>{" "}
                 .
               </p>
               <p className="lead text-white">

@@ -8,10 +8,10 @@ const Hero = () => {
         <div className="container">
           <div className="row pt-3 pt-md-5">
             <div className="col-12 col-md-7 col-lg-6 mb-4 d-flex flex-column justify-content-center">
-              <h1 className="display-4 fw-bold text-center text-md-left">
+              <h1 className=" fw-bold hero--h text-center text-md-start">
                 The multichain vision for Web3 starts here.
               </h1>
-              <p className="lead text-center text-md-left">
+              <p className="lead text-center text-md-start">
                 Polkadot unites and secures a growing ecosystem of specialized
                 blockchains called parachains. Apps and services on Polkadot can
                 securely communicate across chains, forming the basis for a

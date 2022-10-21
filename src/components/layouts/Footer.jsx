@@ -62,20 +62,20 @@ const Footer = () => {
            
           </div>
           <div className="row  align-items-end mt-4 mt-lg-5 pt-md-4">
-        <div className="col-12 col-lg-2 mb-2 mb-lg-0">
+        <div className="col-12 col-lg-2 mb-2 mb-lg-3">
           <a className="navbar-brand" href="/">
-            <img className="logo" alt="Polkadot" src="https://polkadot.network/assets/img/logo-polkadot-light.svg?v=ea608e625d"/>
+            <img className="logo-img-footer" alt="Polkadot" src="https://polkadot.network/assets/img/logo-polkadot-light.svg?v=ea608e625d"/>
           </a>
         </div>
-        <div className="col-12 col-lg-10">
+        <div className="col-12 col-lg-10 ">
           <ul className="list-unstyled d-flex flex-wrap ">
             <li>
-              <span className="text-small  me-1">©
-                2022 <a href="https://web3.foundation" className="c">Web3 Foundation</a> |</span>
+              <span className="small  me-1">©
+                 <a href="https://web3.foundation" className="">2022 Web3 Foundation</a>  {" "}</span>{" "}
             </li>
-            <li><a href="/impressum" className="c text-small"> Impressum</a></li>
-            <li><a href="/disclaimer" className="c text-small"> |  Disclaimer</a></li>
-            <li><a href="/privacy" className="c text-small"> | Privacy</a></li>
+            <li><a href="/impressum" className="c small  me-1 "> | Impressum {" "} </a> </li>
+            <li><a href="/disclaimer" className="c small me-1"> | Disclaimer</a> {" "} </li>
+            <li><a href="/privacy" className="c small"> | Privacy</a></li>
           </ul>
         </div>
       </div>

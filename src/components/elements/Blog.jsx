@@ -8,7 +8,7 @@ const Blog = () => {
         <div className="container">
           <div className="row text-center mb-5">
             <div className="col">
-              <span className="h1 d-block font-weight-bold">From the blog</span>
+              <span className="h1 d-block fw-bold">From the blog</span>
             </div>
           </div>
           <div className="row">
@@ -41,7 +41,7 @@ const Blog = () => {
                     </p>
                   </div>
                 </div>
-                <div className="card-footer border-0">
+                <div className="card-footer bg-white border-0">
                   <div className="d-flex align-items-center">
                     <img
                       src="https://polkadot.network/content/images/2021/12/ghost_avatar_polkadot.png"
@@ -57,7 +57,7 @@ const Blog = () => {
               <div className="card border shadow">
                 <a href="/blog/polkadot-roadmap-roundup/">
                   <img
-                    className="card-img-top"
+                    className="card-img"
                     src="https://polkadot.network/content/images/2022/09/004-smol.png"
                     alt=""
                   />
@@ -76,7 +76,7 @@ const Blog = () => {
                     </p>
                   </div>
                 </div>
-                <div className="card-footer border-0">
+                <div className="card-footer bg-white border-0">
                   <div className="d-flex align-items-center">
                     <img
                       src="https://polkadot.network/content/images/2021/12/ghost_avatar_polkadot.png"
@@ -114,7 +114,7 @@ const Blog = () => {
                     </p>
                   </div>
                 </div>
-                <div className="card-footer border-0">
+                <div className="card-footer border-0 bg-white">
                   <div className="d-flex align-items-center">
                     <img
                       src="https://polkadot.network/content/images/2021/12/ghost_avatar_polkadot.png"
