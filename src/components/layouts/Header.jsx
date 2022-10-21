@@ -6,7 +6,7 @@ import { FaTwitter, FaGithub, FaDiscord } from "react-icons/fa";
 const Header = () => {
   return (
     <>
-      <nav className="navbar navbar--secondary navbar-expand-lg navbar-light bg-white border-bottom py-0">
+      <nav className="navbar navbar--secondary navbar-expand-lg   border-bottom py-0">
         <div className="container">
           <div className="navbar-collapse navMenu justify-content-between collapse show">
             <div className="d-flex justify-content-end justify-content-lg-start pt-1 pt-md-0 order-2 order-lg-1">
@@ -136,32 +136,32 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link to="/" className="nav-link ">
+                <Link to="/technology" className="nav-link ">
                   Technology
                 </Link>
               </li>
               <li className="nav-item  ps-3">
-                <Link to="./login" className="nav-link ">
+                <Link to="/community" className="nav-link ">
                   Community
                 </Link>
               </li>
               <li className="nav-item  ps-3">
-                <Link to="./login" className="nav-link ">
+                <Link to="/about" className="nav-link ">
                   About
                 </Link>
               </li>
               <li className="nav-item  ps-3">
-                <Link to="./login" className="nav-link ">
+                <Link to="/blog" className="nav-link ">
                   Blog
                 </Link>
               </li>
               <li className="nav-item  ps-3">
-                <Link to="./signup" className="nav-link">
+                <Link to="/build" className="nav-link">
                   Build
                 </Link>
               </li>
               <li className="nav-item ps-3">
-                <Link to="./signup" className="nav-link ">
+                <Link to="/contract" className="nav-link ">
                   Contact
                 </Link>
               </li>

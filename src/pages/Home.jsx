@@ -1,5 +1,5 @@
 import React from 'react'
-import Blog from '../components/elements/Blog'
+import BlogSec from '../components/elements/BlogSec'
 import Founded from '../components/elements/Founded'
 import Hero from '../components/elements/Hero'
 import Join from '../components/elements/Join'
@@ -17,7 +17,7 @@ const Home = () => {
     <NetworkCards/>
     <  Opensource/>
     <Founded/>
-    <Blog/>
+    <BlogSec/>
     <Join/>
     </>
   )

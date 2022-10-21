@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="container">
           <div className="row pt-3 pt-md-5">
             <div className="col-12 col-md-7 col-lg-6 mb-4 d-flex flex-column justify-content-center">
-              <h1 className=" fw-bold hero--h text-center text-md-start">
+              <h1 className=" fw-bold hero--h text-center display-1 text-md-start">
                 The multichain vision for Web3 starts here.
               </h1>
               <p className="lead text-center text-md-start">
@@ -29,6 +29,12 @@ const Hero = () => {
                 </a>
               </div>
             </div>
+            <div class="col-12 col-md-5 col-lg-6 mb-4 px-xl-5 d-flex flex-column justify-content-center align-items-center">
+              <div className="inner">
+              <img className="hero--img " src="../assets/outer.svg" alt="" />
+              </div>
+            </div>
+            
           </div>
         </div>
       </div>

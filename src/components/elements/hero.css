@@ -1,8 +1,38 @@
 .hero-btn {
   border: 1px solid #e6007aff;
-
   color: #e6007aff;
 }
+.inner{
+  background-image: url('../../media/hero.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 445px;
+
+  width: 445px;
+}
+.btn:hover{
+  background-color: #e6007aff ;
+  color: white;
+}
 .hero--h{
-  font-size: 56px;
+  font-size: 76px;
+  font-weight: bold;
+}
+.hero--img{
+  height: 450px;
+  width: 450px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  animation: move 1.5s infinite linear;
+}
+@keyframes move{
+  0%{
+    transform: translate(-50%,-50%)  rotate(0deg);
+  }
+  100%{
+    transform: translate(-50%,-50%)  rotate(360deg);
+  }
 }

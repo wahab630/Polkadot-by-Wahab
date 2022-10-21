@@ -1,14 +1,14 @@
 import React from "react";
 import "./blog.css";
 
-const Blog = () => {
+const BlogSec = () => {
   return (
     <>
       <div className="blog">
         <div className="container">
           <div className="row text-center mb-5">
             <div className="col">
-              <span className="h1 d-block fw-bold">From the blog</span>
+              <span className="h1 d-block display-md-4 fw-bold">From the blog</span>
             </div>
           </div>
           <div className="row">
@@ -133,4 +133,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default BlogSec;
