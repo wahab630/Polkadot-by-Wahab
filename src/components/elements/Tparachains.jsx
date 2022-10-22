@@ -4,12 +4,12 @@ import "./tparachains.css";
 const Tparachains = () => {
   return (
     <>
-      <div className="bg-dark">
+      <div className="bg-dark tparachains">
         <div className="container">
           <div className="row text-center justify-content-center">
             <div className="col-12 col-md-10 col-lg-8">
               <h2 className="h1 mb-4 text-white fw-bold">
-                Parachains: parallel transaction processing
+                Parachains: parallel <br /> transaction processing
               </h2>
             </div>
           </div>
@@ -28,14 +28,13 @@ const Tparachains = () => {
                 Transactions can be spread out across the chains, allowing many
                 more transactions to be processed in the same period of time.
               </p>
-              <a
-                href="/parachains"
-                className="btn btn-primary btn-white btn-lg mt-1"
-                target="_blank"
-                rel="nofollow noopener noreferrer"
+              <button
+               
+                className="btn text-white tpara-btn rounded-pills btn-white btn-lg mt-1"
+                
               >
                 Learn more about parachains
-              </a>
+              </button>
             </div>
             <div className="col-12 col-sm-6 offset-lg-1 col-lg-3">
               <p className="lead text-white">
