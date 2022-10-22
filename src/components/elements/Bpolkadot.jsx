@@ -350,6 +350,22 @@ const Bpolkadot = () => {
               </div>
             </div>
           </div>
+          
+           
+
+          <div className="row ">
+            <div className="col-lg-12 ">
+              <div className="page-mm my-5 mx-5">
+            <nav aria-label="Page navigation ">
+  <ul className="pagination page-m">
+    
+    <li className="page-item"><a className="page-link disabled" href="#">Page 1 of 10</a></li>
+    
+    <li className="page-item"><a className="page-link" href="#"><span className=" d-block pinkcolor"> Next</span></a></li>
+  </ul>
+           </nav></div>
+            </div>
+          </div>
         </div>
       </div>
     </>
