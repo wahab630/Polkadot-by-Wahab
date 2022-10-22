@@ -26,7 +26,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  animation: move 1.5s infinite linear;
+  animation: move 15.5s infinite linear;
 }
 @keyframes move{
   0%{

@@ -1,0 +1,16 @@
+.avatar{
+    height: 32px;
+    width: 32px;
+}
+.blog a{
+    text-decoration: none;
+}
+.pinkcolor{
+    color:  #E6007AFF;
+}
+.blog{
+    padding-top: 100px;
+}
+.card-img{
+    height: 180px;
+}

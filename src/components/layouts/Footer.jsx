@@ -50,7 +50,7 @@ const Footer = () => {
         </div>
         <div className="col-12 col-lg-3 px-lg-0 mt-4 mt-lg-0">
           <ul className="list-social-links list-unstyled justify-content-start justify-content-lg-between mb-4 mb-md-5 mb-lg-4 mb-xl-3 d-flex">
-            <li> <FaTwitter size={30}/>  </li>
+            <li> <FaTwitter  size={30}/>  </li>
             <li> <FaReddit size={30}/> </li>
             <li> <FaGithub size={30}/> </li>
             <li>< FaYoutube size={30}/> </li>
