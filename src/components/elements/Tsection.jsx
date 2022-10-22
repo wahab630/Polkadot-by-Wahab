@@ -5,8 +5,8 @@ const Tsection = () => {
   return (
     <>
       <div className="tsection bg-dark">
-        <div className="container">
-          <div className="row">
+        <div className="container pb-5">
+          <div className="row ">
             <div className="col-md-6 col-lg-4">
               <div className="card d-flex flex-row rounded shadow border-0">
                 <div className="d-flex  align-items-center ms-3">
@@ -57,7 +57,7 @@ const Tsection = () => {
             </div>
           </div>
         </div>
-        <div className="container-fluid bg-dark">
+        <div className="container-fluid mt-5 ">
             <div className="row">
                 <div className="col-lg-7 col-md-12 col-xl-8">
                      <div>
