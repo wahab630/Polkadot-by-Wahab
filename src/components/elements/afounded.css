@@ -1,11 +1,9 @@
-.afounded{
-    background: url('../../media/Afounded.jpg');
-    background-size: cover;
-    background-position: top;
-    height: 80vh;
+.afounded {
+  background: url("../../media/Afounded.jpg");
+  background-size: cover;
+  background-position: top;
+  height: 80vh;
 }
-.afounded-h{
-    
-    padding-top: 150px;
-    
+.afounded-h {
+  padding-top: 150px;
 }
