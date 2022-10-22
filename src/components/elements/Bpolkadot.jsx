@@ -354,8 +354,8 @@ const Bpolkadot = () => {
            
 
           <div className="row ">
-            <div className="col-lg-12 ">
-              <div className="page-mm my-5 mx-5">
+            <div className="col d-flex justify-content-center ">
+              <div className="page-mm my-5 ">
             <nav aria-label="Page navigation ">
   <ul className="pagination page-m">
     
