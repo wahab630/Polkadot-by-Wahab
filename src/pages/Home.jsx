@@ -15,7 +15,7 @@ const Home = () => {
     <Section/>
     <Network/>
     <NetworkCards/>
-    <  Opensource/>
+    <Opensource/>
     <Founded/>
     <BlogSec/>
     <Join/>

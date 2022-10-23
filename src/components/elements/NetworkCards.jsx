@@ -1,5 +1,5 @@
 import React from "react";
-import "./networkcard.css";
+
 
 const NetworkCards = () => {
   return (

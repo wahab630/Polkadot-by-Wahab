@@ -7,7 +7,7 @@ const Aboutsection = () => {
         <div className="container">
           
           <div className="row">
-            <div className="col-md-6 col-lg-4">
+            <div className="col-md-6 col-lg-4 acard">
               <div className="card d-flex flex-row rounded shadow border-0">
                 <div className="d-flex  align-items-center ms-3">
                   <img

@@ -1,0 +1,128 @@
+/* .acard :hover{ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif !important;
+}
+.comjoin {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+.comrun {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+.comvalidator {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.comget-btn {
+  color: #e6007aff;
+  border: 1px solid #e6007aff;
+  border-radius: 50px;
+}
+.Comgetgrant {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #efefef;
+}
+.comupcomming {
+  background-image: url("./media/upcomming.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 73vh;
+  padding-top: 60px;
+  opacity: 0.8;
+}
+.comup-btn {
+  border: 1px solid #e6007aff;
+  border-radius: 50px;
+  padding: 15px 20px;
+}
+
+// ---------------------------------Home Page -------------------------------
+.network-bg {
+  padding-top: 100px;
+  padding-bottom: 20px;
+  color: white;
+}
+.NC-bg {
+  padding-bottom: 100px;
+  .nc-img {
+    height: 152px;
+    width: 152px;
+  }
+  .nc-btn {
+    background-color: transparent;
+    color: white;
+    border: 1px solid #e6007aff;
+  }
+}
+
+.open--bg {
+  background-color: #e6007aff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  .open--img {
+    height: 70px;
+    width: 70px;
+  }
+  .text-underline {
+    position: relative;
+
+    .text-underline::after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 24px;
+      left: 0px;
+      width: 100%;
+      height: 1px;
+      background-color: white;
+    }
+  }
+}
+.founded-bg {
+    background-image: url("./media/summit.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60vh;
+    opacity: 0.9;
+    .founded-btn {
+      border: 1px solid #e6007aff;
+    }
+  }
+.blog{
+    padding-top: 100px;
+
+    .card-img-top{
+        width: 100%;
+        height: auto;
+    }
+    .card-img{
+        height: 180px;
+        width: 100%;
+    }
+    .pinkcolor{
+        color:  #E6007AFF;
+    }
+    .avatar{
+        height: 32px;
+        width: 32px;
+    }
+}
+.join{
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    .join-btn {
+      border: 1px solid #e6007aff;  
+      color: #e6007aff;
+    }
+  }
+// ***********************************Technology Page*****************************
+  

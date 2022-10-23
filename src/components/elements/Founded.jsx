@@ -1,5 +1,5 @@
 import React from "react";
-import "./founded.css";
+
 
 const Founded = () => {
   return (
