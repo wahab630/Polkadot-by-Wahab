@@ -9,13 +9,13 @@ const ContactHave = () => {
           <div className="row text-center">
             <div className="text-center">
               <div className="col-lg-8 text-center mx-auto">
-                <h3 className="text-black  fw-bold display-5">
-                  Have a question about building on Polkadot?
-                </h3>
+                <h2 className="text-black  fw-bolder ">
+                  Have a question about <br /> building on Polkadot?
+                </h2>
 
-                <button className="btn btn-lg twant-btn  fw-bold mt-4 ">
-                  {" "}
-                  <small> let's connect</small>
+                <button className="btn  twant-btn  fw-bold mt-4 ">
+                  
+                   Let's connect
                 </button>
               </div>
             </div>

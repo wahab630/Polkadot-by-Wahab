@@ -1,24 +1,24 @@
-import React from "react";
-import "./atouch.css";
-const Atouch = () => {
+import React from 'react'
+
+const Aboutsection = () => {
   return (
     <>
-      <div className="Atouch bg-dark">
+    <div className="Atouch bg-dark">
         <div className="container">
-          <h1 className="fw-bold text-center text-white pb-5">Get in touch</h1>
+          
           <div className="row">
             <div className="col-md-6 col-lg-4">
               <div className="card d-flex flex-row rounded shadow border-0">
                 <div className="d-flex  align-items-center ms-3">
                   <img
-                    src="https://polkadot.network/assets/img/logos/logo-circle-chat.svg?v=ea608e625d"
+                    src="https://polkadot.network/assets/img/logos/logo-circle-element.svg?v=ea608e625d"
                     className="t-card-img"
                     alt="no"
                   />
                 </div>
 
                 <div className="card-body">
-                  <h5 class="mb-1">For general chat</h5>
+                  <h5 class="mb-1 fw-bold">For general chat</h5>
                   <p class="mb-0">
                     Join the <span className="Atouch-color">Watercooler</span>{" "}
                     or <span className="Atouch-color">Discord</span>{" "}
@@ -37,7 +37,7 @@ const Atouch = () => {
                 </div>
 
                 <div className="card-body">
-                  <h5 class="mb-1">For press inquiries</h5>
+                  <h5 class="mb-1 fw-bold">For press inquiries</h5>
                   <p class="mb-0">
                     Please fill out <span className="Atouch-color">this</span>{" "}
                     form
@@ -49,14 +49,14 @@ const Atouch = () => {
               <div className="card d-flex flex-row rounded shadow border-0">
                 <div className="d-flex  align-items-center ms-3">
                   <img
-                    src="https://polkadot.network/assets/img/logos/logo-circle-email.svg?v=ea608e625d"
+                    src="https://polkadot.network/assets/img/logos/logo-circle-chat.svg?v=ea608e625d"
                     className="t-card-img"
                     alt="no"
                   />
                 </div>
 
                 <div className="card-body">
-                  <h5 class="mb-1">For all other inquiries</h5>
+                  <h5 class="mb-1 fw-bold">For all other inquiries</h5>
                   <p class="mb-0">
                     <span className="Atouch-color">
                       support.polkadot.network
@@ -84,7 +84,7 @@ const Atouch = () => {
                 Join the teams building Polkadot
               </h2>
               <p className="text-white lead text-center">
-                See jobs at&nbsp;
+                See jobs at &nbsp;
                 <span className=" text-underline">Web3 Foundation</span>&nbsp;
                 or at &nbsp;
                 <span className=" text-underline">Parity Technologies</span>
@@ -94,7 +94,7 @@ const Atouch = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Atouch;
+export default Aboutsection

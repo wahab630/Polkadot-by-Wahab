@@ -161,7 +161,7 @@ const Header = () => {
                 </Link>
               </li>
               <li className="nav-item ps-3">
-                <Link to="/contract" className="nav-link ">
+                <Link to="/contact" className="nav-link ">
                   Contact
                 </Link>
               </li>

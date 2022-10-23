@@ -7,7 +7,9 @@ const Bpolkadot = () => {
         <div className="container">
           <div className="row text-center mb-5">
             <div className="col">
-              <h1 className="h1 d-block display-4 fw-bold mb-5">Polkadot blog</h1>
+              <h1 className="h1 d-block display-4 fw-bold mb-5">
+                Polkadot blog
+              </h1>
             </div>
           </div>
           <div className="row">
@@ -40,7 +42,6 @@ const Bpolkadot = () => {
                     </p>
                   </div>
                 </div>
-                
               </div>
             </div>
             <div className="col-12 col-md-6 col-lg-4 d-flex">
@@ -66,7 +67,6 @@ const Bpolkadot = () => {
                     </p>
                   </div>
                 </div>
-                
               </div>
             </div>
             <div className="col-12 col-md-6 col-lg-4 d-flex">
@@ -94,7 +94,6 @@ const Bpolkadot = () => {
                     </p>
                   </div>
                 </div>
-               
               </div>
             </div>
           </div>
@@ -123,7 +122,6 @@ const Bpolkadot = () => {
                     </p>
                   </div>
                 </div>
-                
               </div>
             </div>
             <div className="col-12 col-md-6 col-lg-4 d-flex">
@@ -151,7 +149,6 @@ const Bpolkadot = () => {
                     </p>
                   </div>
                 </div>
-               
               </div>
             </div>
             <div className="col-12 col-md-6 col-lg-4 d-flex">
@@ -178,7 +175,6 @@ const Bpolkadot = () => {
                     </p>
                   </div>
                 </div>
-                
               </div>
             </div>
           </div>
@@ -209,7 +205,6 @@ const Bpolkadot = () => {
                     </p>
                   </div>
                 </div>
-                
               </div>
             </div>
             <div className="col-12 col-md-6 col-lg-4 d-flex">
@@ -238,7 +233,6 @@ const Bpolkadot = () => {
                     </p>
                   </div>
                 </div>
-               
               </div>
             </div>
             <div className="col-12 col-md-6 col-lg-4 d-flex">
@@ -264,7 +258,6 @@ const Bpolkadot = () => {
                     </p>
                   </div>
                 </div>
-               
               </div>
             </div>
           </div>
@@ -292,7 +285,6 @@ const Bpolkadot = () => {
                     </p>
                   </div>
                 </div>
-               
               </div>
             </div>
             <div className="col-12 col-md-6 col-lg-4 d-flex">
@@ -319,7 +311,6 @@ const Bpolkadot = () => {
                     </p>
                   </div>
                 </div>
-               
               </div>
             </div>
             <div className="col-12 col-md-6 col-lg-4 d-flex">
@@ -346,24 +337,29 @@ const Bpolkadot = () => {
                     </p>
                   </div>
                 </div>
-                
               </div>
             </div>
           </div>
-          
-           
 
           <div className="row ">
             <div className="col d-flex justify-content-center ">
               <div className="page-mm my-5 ">
-            <nav aria-label="Page navigation ">
-  <ul className="pagination page-m">
-    
-    <li className="page-item"><a className="page-link disabled" href="#">Page 1 of 10</a></li>
-    
-    <li className="page-item"><a className="page-link" href="#"><span className=" d-block pinkcolor"> Next</span></a></li>
-  </ul>
-           </nav></div>
+                <nav aria-label="Page navigation ">
+                  <ul className="pagination page-m">
+                    <li className="page-item">
+                      <button className="page-link disabled">
+                        Page 1 of 10
+                      </button>
+                    </li>
+
+                    <li className="page-item">
+                      <button className="page-link" >
+                        <span className=" d-block pinkcolor"> Next</span>
+                      </button>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
             </div>
           </div>
         </div>
