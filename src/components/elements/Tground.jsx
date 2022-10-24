@@ -3,7 +3,7 @@ import React from "react";
 const Tground = () => {
   return (
     <>
-      <div className="Tnetwork ">
+      <div className="Tground ">
         <div className="container">
           <div className="row text-center justify-content-center">
             <div className="col-lg-8">

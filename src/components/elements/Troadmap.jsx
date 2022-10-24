@@ -1,10 +1,10 @@
 import React from "react";
-import "./troadmap.css";
+
 
 const Troadmap = () => {
   return (
     <>
-      <div className="Tnetwork ">
+      <div className="Troadmap ">
         <div className="container">
           <div className="row text-center justify-content-center">
             <div className="col-lg-8">

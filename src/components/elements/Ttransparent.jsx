@@ -1,16 +1,16 @@
 import React from 'react'
-import './ttransparent.css'
+
 
 const Ttransparent = () => {
   return (
     <>
-    <div className="container tbetter-p">
+    <div className="container ttransparent">
         <div className="row ">
           <div className="col-lg-6 col-md-6">
             <img
               src="https://polkadot.network/assets/img/dg-governance.svg?v=ea608e625d"
               alt="no"
-              className="tbetter-img d-block"
+              className="ttransparent-img d-block"
             />
           </div>
           <div className="col-md-6 col-lg-6">

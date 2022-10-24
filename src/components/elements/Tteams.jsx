@@ -1,5 +1,5 @@
 import React from "react";
-import './tteams.css'
+
 
 const Tteams = () => {
   return (

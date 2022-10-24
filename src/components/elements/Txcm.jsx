@@ -1,16 +1,16 @@
 import React from "react";
-import "./txcm.css";
+
 
 const Txcm = () => {
   return (
     <>
-      <div className="container tbetter-p">
+      <div className="container txcm">
         <div className="row ">
           <div className="col-lg-6 col-md-6">
             <img
               src="https://polkadot.network/assets/img/dg-xcm.svg?v=ea608e625d"
               alt="no"
-              className="tbetter-img d-block"
+              className="txcm-img d-block"
             />
           </div>
           <div className="col-md-6 col-lg-6">

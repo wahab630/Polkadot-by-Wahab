@@ -1,5 +1,5 @@
 import React from "react";
-import './tconnecting.css'
+
 
 const Tconnecting = () => {
   return (

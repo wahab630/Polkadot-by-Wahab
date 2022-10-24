@@ -1,10 +1,10 @@
 import React from "react";
-import "./tgreen.css";
+
 
 const Tgreen = () => {
   return (
     <>
-      <div className="container tbetter-p">
+      <div className="container tgreen">
         <div className="row">
           <div className="col-md-6 col-lg-6">
             <h1 className="fw-bold mb-3">A green, energy-efficient protocol</h1>
@@ -25,7 +25,7 @@ const Tgreen = () => {
             <img
               src="https://polkadot.network/assets/img/dg-green-energy.svg?v=ea608e625d"
               alt="no"
-              className="tbetter-img d-block"
+              className="tgreen-img d-block"
             />
           </div>
         </div>

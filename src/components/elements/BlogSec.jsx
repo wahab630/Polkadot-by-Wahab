@@ -14,7 +14,7 @@ const BlogSec = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-12 col-md-6 col-lg-4 d-flex">
+            <div className="col-12 col-md-6 mb-md-3 mb-0 col-lg-4 d-flex">
               <div className="card border shadow">
                 <img
                   className="card-img-top"

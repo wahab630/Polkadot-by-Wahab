@@ -1,16 +1,16 @@
 import React from "react";
-import "./tgrandpa.css";
+
 
 const Tgrandpa = () => {
   return (
     <>
-      <div className="container tbetter-p">
+      <div className="container tgrandpa">
         <div className="row ">
           <div className="col-lg-6 col-md-6">
             <img
               src="https://polkadot.network/assets/img/dg-consensus.svg?v=ea608e625d"
               alt="no"
-              className="tbetter-img d-block"
+              className="tgrandpa-img d-block"
             />
           </div>
           <div className="col-md-6 col-lg-6">

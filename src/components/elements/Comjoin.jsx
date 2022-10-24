@@ -11,7 +11,8 @@ const Comjoin = () => {
             </h1>
             <p className="fs-5">
               Polkadot is a 100% open-source project created to enable a
-              decentralized <br /> web and better society. Anyone can contribute.
+              decentralized <br /> web and better society. Anyone can
+              contribute.
             </p>
           </div>
         </div>

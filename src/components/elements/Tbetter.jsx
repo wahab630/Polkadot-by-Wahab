@@ -1,5 +1,5 @@
 import React from "react";
-import './tbetter.css'
+
 const Tbetter = () => {
   return (
     <>

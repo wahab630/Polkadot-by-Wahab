@@ -1,5 +1,5 @@
 import React from "react";
-import "./tparachains.css";
+
 
 const Tparachains = () => {
   return (

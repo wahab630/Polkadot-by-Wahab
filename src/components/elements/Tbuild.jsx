@@ -1,5 +1,5 @@
 import React from "react";
-import "./tbuild.css";
+
 
 const Tbuild = () => {
   return (
@@ -20,16 +20,9 @@ const Tbuild = () => {
               </span>
               <p>
                 Polkadot’s relay chain is built with{" "}
-                <a
-                  href="https://www.substrate.io"
-                  target="_blank"
-                  rel="nofollow noopener noreferrer"
-                  className="text-underline"
-                >
-                  Substrate
-                </a>
-                , a blockchain-building framework that is the distillation of
-                Parity Technologies’ learnings building Ethereum, Bitcoin, and
+                <span className="text-underline">Substrate</span>, a
+                blockchain-building framework that is the distillation of Parity
+                Technologies’ learnings building Ethereum, Bitcoin, and
                 enterprise blockchains.
               </p>
               <p>
