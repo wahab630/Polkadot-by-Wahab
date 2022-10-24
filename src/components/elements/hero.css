@@ -4,20 +4,49 @@
   background-color: transparent;
   color: #e6007aff;
 }
-.inner {
-  background-image: url("../../media/hero.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+.outer{
+  background-image: url('../../media/outer.svg');
+  background-size: contain;
+  height: 540px;
+ 
   position: relative;
-  height: 445px;
-  width: 445px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.inner-img{
+  margin-top: 30px;
+  margin-left: 5px;
 }
 .btn:hover {
   background-color: #e6007aff;
   color: white;
 }
+.hero--h{
+  font-size: 56px;
+}
+@media only screen and (max-width:768px){
+  .inner-img{
+    margin-top: 110px;
+    margin-left: 30px;
+  }
+  .hero-btn{
+    margin-top: 5px;
+  }
+  .hero--h{
+    font-size: 2rem;
+  }
+  .hero-btn-div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+}
 
-.hero--img {
+
+/* .hero--img {
   height: 450px;
   width: 450px;
   position: absolute;
@@ -25,12 +54,12 @@
   left: 50%;
   transform: translate(-50%, -50%);
   animation: move 15.5s infinite linear;
-}
-@keyframes move {
+} */
+/* @keyframes move {
   0% {
     transform: translate(-50%, -50%) rotate(0deg);
   }
   100% {
     transform: translate(-50%, -50%) rotate(360deg);
   }
-}
+} */

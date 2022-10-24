@@ -1,3 +1,7 @@
 .acard-cards{
-    height: 450px;
+    position: relative;
+    top: -20px;
+}
+.Acards p{
+    color: #1e1e1e;
 }

@@ -7,8 +7,8 @@ const Tsection = () => {
       <div className="tsection bg-dark">
         <div className="container pb-5">
           <div className="row ">
-            <div className="col-md-6 col-lg-4">
-              <div className="card d-flex flex-row rounded shadow border-0">
+            <div className="col-md-6 col-lg-4 mb-sm-3 mb-3">
+              <div className="card d-flex flex-row tsec-card rounded shadow border-0">
                 <div className="d-flex  align-items-center ms-3">
                   <img
                     src="https://polkadot.network/assets/img/logos/logo-circle-github.svg?v=ea608e625d"
@@ -18,12 +18,12 @@ const Tsection = () => {
                 </div>
 
                 <div className="card-body">
-                  <h5 class="mb-1">GitHub</h5>
+                  <h5 class="mb-1 fw-bold">GitHub</h5>
                   <p class="mb-0">Latest version &amp; history.</p>
                 </div>
               </div>
             </div>
-            <div className="col-md-6 col-lg-4">
+            <div className="col-md-6 col-lg-4 mb-sm-3 mb-3">
               <div className="card d-flex flex-row rounded shadow border-0">
                 <div className="d-flex  align-items-center ms-3">
                   <img
@@ -34,12 +34,12 @@ const Tsection = () => {
                 </div>
 
                 <div className="card-body">
-                  <h5 class="mb-1">Documentation</h5>
+                  <h5 class="mb-1 fw-bold">Documentation</h5>
                   <p class="mb-0">Read the documentation.</p>
                 </div>
               </div>
             </div>
-            <div className="col-md-6 col-lg-4">
+            <div className="col-md-6 col-lg-4 mb-sm-3 mb-3">
               <div className="card d-flex flex-row rounded shadow border-0">
                 <div className="d-flex  align-items-center ms-3">
                   <img
@@ -50,7 +50,7 @@ const Tsection = () => {
                 </div>
 
                 <div className="card-body">
-                  <h5 class="mb-1">Element chat</h5>
+                  <h5 class="mb-1 fw-bold">Element chat</h5>
                   <p class="mb-0">Get your questions answered.</p>
                 </div>
               </div>

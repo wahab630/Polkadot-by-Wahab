@@ -11,7 +11,7 @@ const Buildtools = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-4 col-md-6 ">
+            <div className="col-lg-4 col-md-6 mb-3">
               <div className="card border-0 shadow">
                 <div className="card-body">
                   <h4 className="color fw-bold">
@@ -21,7 +21,7 @@ const Buildtools = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-4 col-md-6 mb-3">
               <div className="card border-0 shadow">
                 <div className="card-body">
                   <h4 className="color fw-bold">
@@ -31,7 +31,7 @@ const Buildtools = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-4 col-md-6 mb-3">
               <div className="card border-0 shadow h-100">
                 <div className="card-body">
                   <h4 className="color fw-bold">Substrate UI</h4>
@@ -42,7 +42,7 @@ const Buildtools = () => {
           </div>
           <div className="row mt-4">
             <div className="col-lg-4 col-md-6">
-              <div className="card border-0 shadow">
+              <div className="card border-0 shadow mb-3">
                 <div className="card-body">
                   <h4 className="color fw-bold">Polkabot</h4>
                   <p>Network monitoring and reporting</p>

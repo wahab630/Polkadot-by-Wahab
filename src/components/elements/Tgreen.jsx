@@ -21,7 +21,7 @@ const Tgreen = () => {
               analyzed in recent research.
             </p>
           </div>
-          <div className="col-lg-4 col-md-6">
+          <div className="col-lg-4 col-md-6 d-flex align-items-center ">
             <img
               src="https://polkadot.network/assets/img/dg-green-energy.svg?v=ea608e625d"
               alt="no"

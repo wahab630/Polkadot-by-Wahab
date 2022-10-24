@@ -51,214 +51,231 @@ body {
   }
 }
 .founded-bg {
-    background-image: url("./media/summit.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 60vh;
-    opacity: 0.9;
-    .founded-btn {
-      border: 1px solid #e6007aff;
-    }
+  background-image: url("./media/summit.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60vh;
+  opacity: 0.9;
+  .founded-btn {
+    border: 1px solid #e6007aff;
   }
-.blog{
-    padding-top: 100px;
-
-    .card-img-top{
-        width: 100%;
-        height: auto;
-    }
-    .card-img{
-        height: 180px;
-        width: 100%;
-    }
-    .pinkcolor{
-        color:  #E6007AFF;
-    }
-    .avatar{
-        height: 32px;
-        width: 32px;
-    }
 }
-.join{
-    padding-top: 100px;
-    padding-bottom: 100px;
+.blog {
+  padding-top: 100px;
 
-    .join-btn {
-      border: 1px solid #e6007aff;  
-      color: #e6007aff;
-    }
+  .card-img-top {
+    width: 100%;
+    height: auto;
   }
+  .card-img {
+    height: 180px;
+    width: 100%;
+  }
+  .pinkcolor {
+    color: #e6007aff;
+  }
+  .avatar {
+    height: 32px;
+    width: 32px;
+  }
+}
+.join {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  .join-btn {
+    border: 1px solid #e6007aff;
+    color: #e6007aff;
+    padding: 16px 20px;
+    border-radius: 2rem;
+  }
+}
 // ***********************************Technology Page*****************************
-.Tsalalable{
+.Tsalalable {
   height: 60vh;
 }
 
-.tsection{
+.tsection {
   padding-bottom: 100px;
-  .t-card-img{
-      height: 42px;
-      width: 43px;
+  .card {
+    position: relative;
+    top: -20px;
   }
-  .Tsection-big-img{
-      background-image: url('https://polkadot.network/assets/img/dg-network-xl-2.svg?v=ea608e625d');
-      background-size: cover;  
-      height: 80vh;
-      background-position: center;
+  .t-card-img {
+    height: 42px;
+    width: 43px;
+  }
+  .card{
+    position: relative;
+    &:hover{
+      top: -30px;
+    }
+  }
+  .Tsection-big-img {
+    background-image: url("https://polkadot.network/assets/img/dg-network-xl-2.svg?v=ea608e625d");
+    background-size: cover;
+    height: 80vh;
+    background-position: center;
   }
 }
 .Tnetwork {
-  background-color: #E6007AFF;
+  background-color: #e6007aff;
   padding-top: 150px;
   padding-bottom: 200px;
 }
-.tconnecting{
+.tconnecting {
   padding-top: 100px;
   padding-bottom: 100px;
-  .tconnecting-card-img{
-      height: 150px;
-      width: 150px;
+  
+  .tconnecting-card-img {
+    height: 150px;
+    width: 150px;
+  }
+  @media  only screen and (max-width:768px){
+    .tconnecting-card-1{
+
+      img{
+        display: block;
+        margin: auto;
+      }
+      text-align: center;
+    }
   }
 }
 
 .tbuild {
   padding-top: 100px;
   padding-bottom: 100px;
-  .Tbuild-img{
-      width: 100%;
-      height: auto;
+  background-color: #efefef ;
+  .Tbuild-img {
+    width: 100%;
+    height: auto;
   }
-  
-  .text-underline{
-      position: relative;
+
+  .text-underline {
+    position: relative;
   }
-  .text-underline::after{
-      content: '';
-      display: block;
-      position: absolute;
-      top: 20px;
-      left: 0px; 
-      width: 100%;
-      height: 1px;
-      background-color:  #e6007aff;
+  .text-underline::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    width: 100%;
+    height: 1px;
+    background-color: #e6007aff;
   }
 }
 
-.tparachains{
+.tparachains {
   padding-top: 90px;
   padding-bottom: 90px;
-  .tparachains-img{
-      width: 200px;
-      height: 146px;
+  .tparachains-img {
+    width: 200px;
+    height: 146px;
   }
-  .tpara-btn{
-      border: 1px solid white;
-      border-radius: 50px;
-      padding: 10px 20px;
+  .tpara-btn {
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 10px 20px;
   }
 }
-.Tground{
-  background-color: #E6007AFF;
+.Tground {
+  background-color: #e6007aff;
   padding-top: 150px;
   padding-bottom: 200px;
-}
-
-.tbetter-p{
-  padding-top: 100px;
-  padding-bottom: 100px;
-  .tbetter-img{
-      width: 200px ;
-      height: 200px;
-      margin-top: 50px;
-      margin-left: 100px;
-      
+  @media only screen and (max-width:768px){
+    padding-top: 50px;
+  padding-bottom: 50px;
   }
 }
 
-.txcm{
+.tbetter-p {
   padding-top: 100px;
   padding-bottom: 100px;
-  .txcm-img{
-      width: 200px ;
-      height: 200px;
-      margin-top: 50px;
-      margin-left: 100px;
-      
+  .tbetter-img {
+    max-height: 200px;
+    width: 100%;
+    height: auto;
+  }
+  
+}
+
+.txcm {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  .txcm-img {
+    max-height: 200px;
+    width: 100%;
+    height: auto;
   }
 }
 
-.tgreen{
+.tgreen {
   padding-top: 100px;
   padding-bottom: 100px;
-  .tgreen-img{
-      width: 200px ;
-      height: 200px;
-      margin-top: 50px;
-      margin-left: 100px;
-      
+  .tgreen-img {
+    max-height: 200px;
+    width: 100%;
+    height: auto;
   }
 }
 
-.ttransparent{
+.ttransparent {
   padding-top: 100px;
   padding-bottom: 100px;
-  .ttransparent-img{
-      width: 200px ;
-      height: 200px;
-      margin-top: 50px;
-      margin-left: 100px;
-      
+  .ttransparent-img {
+    max-height: 200px;
+    width: 100%;
+    height: auto;
   }
 }
 
-.tonchain{
+.tonchain {
   padding-top: 100px;
   padding-bottom: 100px;
-  .tonchain-img{
-      width: 200px ;
-      height: 200px;
-      margin-top: 50px;
-      margin-left: 100px;
-      
+  .tonchain-img {
+    max-height: 200px;
+    width: 100%;
+    height: auto;
   }
 }
 
-.tgrandpa{
+.tgrandpa {
   padding-top: 100px;
   padding-bottom: 100px;
-  .tgrandpa-img{
-      width: 200px ;
-      height: 200px;
-      margin-top: 50px;
-      margin-left: 100px;
-      
+  .tgrandpa-img {
+    max-height: 200px;
+    width: 100%;
+    height: auto;
   }
 }
-.Troadmap{
-  background-color: #E6007AFF;
+.Troadmap {
+  background-color: #e6007aff;
   padding-top: 150px;
   padding-bottom: 200px;
-  .troad-btn{
+  .troad-btn {
     color: white;
     border: 1px solid white;
     border-radius: 50px;
     padding: 15px 20px;
     font-weight: bold;
+  }
 }
-}
-.tteam{
+.tteam {
   padding-top: 90px;
   padding-bottom: 90px;
 }
 
-.Twant{
+.Twant {
   padding-top: 100px;
   padding-bottom: 120px;
-  .twant-btn{
-      border: 1px solid #E6007AFF ;
-      color: #E6007AFF;
-      border-radius: 50px;
-      padding: 15px 20px;
+  .twant-btn {
+    border: 1px solid #e6007aff;
+    color: #e6007aff;
+    border-radius: 50px;
+    padding: 15px 20px;
   }
 }
 // **********************************Community Page******************************
@@ -299,9 +316,53 @@ body {
     padding: 15px 20px;
   }
 }
-.comsection{
-  .t-card-img{
+.comsection {
+  .t-card-img {
     height: 42px;
     width: 43px;
+  }
 }
+
+
+
+// ------------------------------------About page----------------------------
+.Ajoin {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  .Ajoin-btn {
+    border: 1px solid #e6007aff;
+    color: #e6007aff;
+    padding: 16px 20px;
+    border-radius: 2rem;
+  }
+}
+
+.Atouch {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  .Atouch-color{
+      color: #E6007AFF;
+  }
+  .t-card-img{
+      height: 42px;
+      width: 43px;
+  }
+  /* .text-underline{
+    text-decoration: underline;
+  } */
+}
+
+
+// ---------------------------Contact Have-------------------------------
+
+.conthave{
+  padding-top: 100px;
+  padding-bottom: 120px;
+  .conthave-btn {
+      border: 1px solid #E6007AFF ;
+      color: #E6007AFF;
+      border-radius: 50px;
+      padding: 15px 20px;
+  }
 }

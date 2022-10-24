@@ -6,11 +6,11 @@ const Txcm = () => {
     <>
       <div className="container txcm">
         <div className="row ">
-          <div className="col-lg-6 col-md-6">
+          <div className="col-lg-6 col-md-6 d-flex align-items-center ">
             <img
               src="https://polkadot.network/assets/img/dg-xcm.svg?v=ea608e625d"
               alt="no"
-              className="txcm-img d-block"
+              className="txcm-img "
             />
           </div>
           <div className="col-md-6 col-lg-6">

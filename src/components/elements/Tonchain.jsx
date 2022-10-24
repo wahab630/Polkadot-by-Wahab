@@ -23,7 +23,7 @@ const Tonchain = () => {
             </p>
             <p>Learn more about the Polkadot treasury</p>
           </div>
-          <div className="col-lg-4 col-md-6">
+          <div className="col-lg-4 col-md-6 d-flex align-items-center ">
             <img
               src="https://polkadot.network/assets/img/dg-treasury.svg?v=ea608e625d"
               alt="no"

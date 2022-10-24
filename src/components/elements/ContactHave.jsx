@@ -1,10 +1,10 @@
 import React from "react";
-import "./contacthave.css";
+
 
 const ContactHave = () => {
   return (
     <>
-      <div className="Bsubscribe">
+      <div className="conthave">
         <div className="container">
           <div className="row text-center">
             <div className="text-center">
@@ -13,7 +13,7 @@ const ContactHave = () => {
                   Have a question about <br /> building on Polkadot?
                 </h2>
 
-                <button className="btn  twant-btn  fw-bold mt-4 ">
+                <button className="btn  conthave-btn  fw-bold mt-4 ">
                   
                    Let's connect
                 </button>

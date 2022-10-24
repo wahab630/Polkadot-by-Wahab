@@ -1,114 +1,55 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./header.css";
+import Dropdown from 'react-bootstrap/Dropdown';
+import DropdownButton from 'react-bootstrap/DropdownButton';
 import { FaTwitter, FaGithub, FaDiscord } from "react-icons/fa";
 
 const Header = () => {
   return (
     <>
-      <nav className="navbar navbar--secondary navbar-expand-lg   border-bottom py-0">
+      <nav className="navbar navbar-expand-lg d-none d-sm-block  sticky-top border-bottom">
         <div className="container">
-          <div className="navbar-collapse navMenu justify-content-between collapse show">
-            <div className="d-flex justify-content-end justify-content-lg-start pt-1 pt-md-0 order-2 order-lg-1">
-              <div className="dropdown dropdown-lng-choice">
-                <button
-                  className="btn dropdown-toggle btn-lng-choice mb-1 mb-lg-0"
-                  type="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  <span className="lng text-uppercase">en</span>
-                </button>
-                <div className="dropdown-menu">
-                  <a
-                    className="dropdown-item lng-choice"
-                    data-lng="es"
-                    href="/es/"
-                  >
-                    español
-                  </a>
-                  <a
-                    className="dropdown-item lng-choice"
-                    data-lng="zh-cn"
-                    href="/zh-cn/"
-                  >
-                    中文
-                  </a>
-                  <a
-                    className="dropdown-item lng-choice"
-                    data-lng="ja"
-                    href="/ja/"
-                  >
-                    日本語
-                  </a>
-                  <a
-                    className="dropdown-item lng-choice"
-                    data-lng="ko"
-                    href="/ko/"
-                  >
-                    한국어
-                  </a>
-                  <a
-                    className="dropdown-item lng-choice"
-                    data-lng="ru"
-                    href="/ru/"
-                  >
-                    русский
-                  </a>
-                  <a
-                    className="dropdown-item lng-choice"
-                    data-lng="tr"
-                    href="/tr/"
-                  >
-                    Türkçe
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="py-1 d-flex flex-wrap align-items-center justify-content-between justify-content-lg-end order-1 order-lg-2">
-              <ul className="navbar-nav d-flex flex-row">
-                <li className="nav-item">
-                  <span className="text-small nav-link px-2 me-3 fw-bold ">
-                    {" "}
-                    Lightpaper
-                  </span>
-                </li>
+     
+    <DropdownButton id="dropdown-basic-button" title="EN" >
+      <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+      <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+      <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+    </DropdownButton>
+ 
 
-                <li className="nav-item">
-                  <span className="text-small nav-link px-2 me-3 fw-bold">
-                    {" "}
-                    Whitepaper
-                  </span>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav ms-auto mb-0">
+              <li className="nav-item">Lightpaper</li>
+              <li className="nav-item ms-3">Whitepaper</li>
+              <li className="nav-item  ms-3">Wiki</li>
+              <li className="nav-item  ms-3 d-flex flex-row">
+                <li className="nav-item ms-3  ">
+                  <FaGithub size={20} />
                 </li>
-                <li className="nav-item">
-                  <span className="text-small nav-link px-2 me-3 fw-bold">
-                    Wiki
-                  </span>
+                <li className="nav-item  ms-3">
+                  <FaDiscord size={20} />
                 </li>
-              </ul>
-              <ul className=" navbar-nav d-none d-lg-flex flex-row ">
-                <li>
-                  {" "}
-                  <FaGithub className="pe-2" size={30} />{" "}
+                <li className="nav-item ms-3 ">
+                  <FaTwitter size={20} />
                 </li>
-                <li>
-                  <FaDiscord className="pe-2" size={30} />
-                </li>
-                <li>
-                  {" "}
-                  <FaTwitter className="pe-2" size={30} />{" "}
-                </li>
+              </li>
 
-                <li>
-                  {" "}
-                  <button className=" fw-bold px-3 py-1 nav-btn text-small">
-                    {" "}
-                    Support
-                  </button>{" "}
-                </li>
-              </ul>
-            </div>
+              <li className="nav-item ms-3">
+                <button className="btn nav-btn">Support</button>
+              </li>
+            </ul>
           </div>
         </div>
       </nav>
@@ -140,27 +81,27 @@ const Header = () => {
                   Technology
                 </Link>
               </li>
-              <li className="nav-item  ps-3">
+              <li className="nav-item  ">
                 <Link to="/community" className="nav-link ">
                   Community
                 </Link>
               </li>
-              <li className="nav-item  ps-3">
+              <li className="nav-item  ">
                 <Link to="/about" className="nav-link ">
                   About
                 </Link>
               </li>
-              <li className="nav-item  ps-3">
+              <li className="nav-item  ">
                 <Link to="/blog" className="nav-link ">
                   Blog
                 </Link>
               </li>
-              <li className="nav-item  ps-3">
+              <li className="nav-item  ">
                 <Link to="/build" className="nav-link">
                   Build
                 </Link>
               </li>
-              <li className="nav-item ps-3">
+              <li className="nav-item ">
                 <Link to="/contact" className="nav-link ">
                   Contact
                 </Link>

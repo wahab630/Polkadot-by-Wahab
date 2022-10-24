@@ -8,7 +8,10 @@ const BuildPolkadot = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col col-12 text-center">
-              <span className="h1 fw-bold d-block mb-4 display-3">
+              <span className="h1 fw-bold d-block mb-4 display-3 aos-animate"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              >
                 Build on Polkadot
               </span>
               <p className="buildf">

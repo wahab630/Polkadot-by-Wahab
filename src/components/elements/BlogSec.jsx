@@ -14,8 +14,8 @@ const BlogSec = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-12 col-md-6 mb-md-3 mb-0 col-lg-4 d-flex">
-              <div className="card border shadow">
+            <div className="col-12 col-md-6 mb-3  col-lg-4 d-flex">
+              <div className="card border shadow h-100">
                 <img
                   className="card-img-top"
                   src="https://polkadot.network/content/images/2022/10/image1.png"
@@ -54,7 +54,7 @@ const BlogSec = () => {
                 </div>
               </div>
             </div>
-            <div className="col-12 col-md-6 col-lg-4 d-flex">
+            <div className="col-12 col-md-6 mb-3  col-lg-4 d-flex">
               <div className="card border shadow">
                 <img
                   className="card-img"
@@ -88,7 +88,7 @@ const BlogSec = () => {
                 </div>
               </div>
             </div>
-            <div className="col-12 col-md-6 col-lg-4 d-flex">
+            <div className="col-12 col-md-6 mb-3  col-lg-4 d-flex">
               <div className="card border shadow">
                 <img
                   className="card-img-top"

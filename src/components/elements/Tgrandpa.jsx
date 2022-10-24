@@ -6,7 +6,7 @@ const Tgrandpa = () => {
     <>
       <div className="container tgrandpa">
         <div className="row ">
-          <div className="col-lg-6 col-md-6">
+          <div className="col-lg-6 col-md-6 d-flex align-items-center ">
             <img
               src="https://polkadot.network/assets/img/dg-consensus.svg?v=ea608e625d"
               alt="no"

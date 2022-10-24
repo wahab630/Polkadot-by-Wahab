@@ -7,14 +7,17 @@ const Bpolkadot = () => {
         <div className="container">
           <div className="row text-center mb-5">
             <div className="col">
-              <h1 className="h1 d-block display-4 fw-bold mb-5">
+              <h1 className="h1 d-block display-4 fw-bold mb-5 aos-animate"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              >
                 Polkadot blog
               </h1>
             </div>
           </div>
           <div className="row">
-            <div className="col-12 col-md-6 col-lg-4 d-flex">
-              <div className="card border shadow">
+            <div className="col-12 col-md-6 col-lg-4 d-flex ">
+              <div className="card border shadow mb-3">
                 <a href="/blog/first-parachain-successfully-migrates-from-kusama-to-polkadot/">
                   <img
                     className="card-img-top"
@@ -45,7 +48,7 @@ const Bpolkadot = () => {
               </div>
             </div>
             <div className="col-12 col-md-6 col-lg-4 d-flex">
-              <div className="card border shadow">
+              <div className="card border shadow mb-3">
                 <a href="/blog/polkadot-roadmap-roundup/">
                   <img
                     className="card-img"
@@ -70,7 +73,7 @@ const Bpolkadot = () => {
               </div>
             </div>
             <div className="col-12 col-md-6 col-lg-4 d-flex">
-              <div className="card border shadow">
+              <div className="card border shadow mb-3">
                 <a href="/blog/sub0-2022/">
                   <img
                     className="card-img-top"
@@ -97,9 +100,9 @@ const Bpolkadot = () => {
               </div>
             </div>
           </div>
-          <div className="row pt-4">
+          <div className="row ">
             <div className="col-12 col-md-6 col-lg-4 d-flex">
-              <div className="card border shadow">
+              <div className="card border shadow mb-3">
                 <a href="/blog/first-parachain-successfully-migrates-from-kusama-to-polkadot/">
                   <img
                     className="card-img-top"
@@ -125,7 +128,7 @@ const Bpolkadot = () => {
               </div>
             </div>
             <div className="col-12 col-md-6 col-lg-4 d-flex">
-              <div className="card border shadow">
+              <div className="card border shadow mb-3">
                 <a href="/blog/polkadot-roadmap-roundup/">
                   <img
                     className="card-img"
@@ -152,7 +155,7 @@ const Bpolkadot = () => {
               </div>
             </div>
             <div className="col-12 col-md-6 col-lg-4 d-flex">
-              <div className="card border shadow">
+              <div className="card border shadow mb-3">
                 <a href="/blog/sub0-2022/">
                   <img
                     className="card-img-top"
@@ -179,9 +182,9 @@ const Bpolkadot = () => {
             </div>
           </div>
 
-          <div className="row pt-4">
+          <div className="row ">
             <div className="col-12 col-md-6 col-lg-4 d-flex">
-              <div className="card border-0 shadow">
+              <div className="card border-0 shadow mb-3">
                 <a href="/blog/first-parachain-successfully-migrates-from-kusama-to-polkadot/">
                   <img
                     className="card-img-top"
@@ -208,7 +211,7 @@ const Bpolkadot = () => {
               </div>
             </div>
             <div className="col-12 col-md-6 col-lg-4 d-flex">
-              <div className="card border shadow">
+              <div className="card border shadow mb-3">
                 <a href="/blog/polkadot-roadmap-roundup/">
                   <img
                     className="card-img"
@@ -236,7 +239,7 @@ const Bpolkadot = () => {
               </div>
             </div>
             <div className="col-12 col-md-6 col-lg-4 d-flex">
-              <div className="card border shadow">
+              <div className="card border shadow mb-3">
                 <a href="/blog/sub0-2022/">
                   <img
                     className="card-img-top"
@@ -262,9 +265,9 @@ const Bpolkadot = () => {
             </div>
           </div>
 
-          <div className="row pt-4">
+          <div className="row ">
             <div className="col-12 col-md-6 col-lg-4 d-flex">
-              <div className="card border shadow">
+              <div className="card border shadow mb-3">
                 <a href="/blog/first-parachain-successfully-migrates-from-kusama-to-polkadot/">
                   <img
                     className="card-img-top"
@@ -288,7 +291,7 @@ const Bpolkadot = () => {
               </div>
             </div>
             <div className="col-12 col-md-6 col-lg-4 d-flex">
-              <div className="card border shadow">
+              <div className="card border shadow mb-3">
                 <a href="/blog/polkadot-roadmap-roundup/">
                   <img
                     className="card-img"
@@ -314,7 +317,7 @@ const Bpolkadot = () => {
               </div>
             </div>
             <div className="col-12 col-md-6 col-lg-4 d-flex">
-              <div className="card border shadow">
+              <div className="card border shadow mb-3">
                 <a href="/blog/sub0-2022/">
                   <img
                     className="card-img-top"

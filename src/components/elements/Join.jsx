@@ -1,5 +1,5 @@
 import React from "react";
-import "./join.css";
+
 
 const Join = () => {
   return (
@@ -11,7 +11,7 @@ const Join = () => {
               <span className="h1 fw-bold d-block mb-4">
                 Want to get involved?
               </span>
-              <a className="btn btn-lg join-btn fw-bold rounded-pill" href="/community">
+              <a className="btn  join-btn fw-bold " href="/community">
                 Join the Community
               </a>
               <span className="d-block mt-3">

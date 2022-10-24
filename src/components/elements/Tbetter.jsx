@@ -5,7 +5,7 @@ const Tbetter = () => {
     <>
       <div className="container tbetter-p">
         <div className="row">
-          <div className="col-md-6 col-lg-6">
+          <div className="col-md-6 col-lg-6 order-0">
             <h1 className="fw-bold mb-3">A better security model</h1>
             <p>
               In both Proof-of-Work and Proof-of-Stake systems, blockchains
@@ -23,8 +23,12 @@ const Tbetter = () => {
               blockchain from day one.
             </p>
           </div>
-          <div className="col-lg-4 col-md-6">
-            <img src="https://polkadot.network/assets/img/dg-security-model.svg?v=ea608e625d" alt="no" className="tbetter-img d-block" />
+          <div className="col-lg-4 col-md-6 tbetter-sec d-flex align-items-center order-1">
+            <img
+              src="https://polkadot.network/assets/img/dg-security-model.svg?v=ea608e625d"
+              alt="no"
+              className="tbetter-img   "
+            />
           </div>
         </div>
       </div>

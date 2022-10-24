@@ -15,9 +15,10 @@
 }
 
 .nav-btn{
-  background-color: white;
+  background-color: transparent;
   border: 1px solid black;
-  border-radius: 50px;
+  border-radius: 32px;
+  padding: 2px 14px;
 }
 .logo {
   width: 182px;

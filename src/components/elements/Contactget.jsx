@@ -8,7 +8,8 @@ const Contactget = () => {
           <div className="row ">
             <div className="text-center">
               <div className="col-lg-8 text-center mx-auto">
-                <h1 className="text-black  fw-bolder display-4 ">
+                <h1 className="text-black  fw-bolder display-4 "
+                >
                 Get in touch with the <br /> Polkadot team
                 </h1>
 

@@ -6,7 +6,10 @@ const Comjoin = () => {
       <div className="container comjoin">
         <div className="row justify-centent-center text-center">
           <div className="col">
-            <h1 className="fw-bold display-3 mb-4">
+            <h1 className="fw-bold display-3 mb-4 aos-animate"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            >
               Join the Polkadot <br /> community
             </h1>
             <p className="fs-5">

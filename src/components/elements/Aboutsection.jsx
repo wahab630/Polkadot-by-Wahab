@@ -8,7 +8,7 @@ const Aboutsection = () => {
           
           <div className="row">
             <div className="col-md-6 col-lg-4 acard">
-              <div className="card d-flex flex-row rounded shadow border-0">
+              <div className="card d-flex flex-row rounded shadow border-0 mb-3">
                 <div className="d-flex  align-items-center ms-3">
                   <img
                     src="https://polkadot.network/assets/img/logos/logo-circle-element.svg?v=ea608e625d"
@@ -27,7 +27,7 @@ const Aboutsection = () => {
               </div>
             </div>
             <div className="col-md-6 col-lg-4">
-              <div className="card d-flex flex-row rounded shadow border-0">
+              <div className="card d-flex flex-row rounded shadow mb-3 border-0">
                 <div className="d-flex  align-items-center ms-3">
                   <img
                     src="https://polkadot.network/assets/img/logos/logo-circle-newsletter.svg?v=ea608e625d"
@@ -46,7 +46,7 @@ const Aboutsection = () => {
               </div>
             </div>
             <div className="col-md-6 col-lg-4">
-              <div className="card d-flex flex-row rounded shadow border-0">
+              <div className="card d-flex flex-row rounded shadow mb-3 border-0">
                 <div className="d-flex  align-items-center ms-3">
                   <img
                     src="https://polkadot.network/assets/img/logos/logo-circle-chat.svg?v=ea608e625d"

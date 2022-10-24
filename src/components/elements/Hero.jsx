@@ -1,5 +1,6 @@
 import React from "react";
 import "./hero.css";
+import  { ScrollRotate } from 'react-scroll-rotate';
 
 const Hero = () => {
   return (
@@ -8,8 +9,8 @@ const Hero = () => {
         <div className="container">
           <div className="row pt-3 pt-md-5">
             <div className="col-12 col-md-7 col-lg-6 mb-4 d-flex flex-column justify-content-center">
-              <h1 className=" fw-bolder hero--h text-center display-4 text-md-start">
-                The multichain vision for <br /> Web3 starts <br /> here.
+              <h1 className=" fw-bolder hero--h text-center  text-md-start">
+                The multichain vision for  Web3 starts  here.
               </h1>
               <p className="lead text-center text-md-start">
                 Polkadot unites and secures a growing ecosystem of <br />{" "}
@@ -18,19 +19,26 @@ const Hero = () => {
                 chains, forming the basis for a truly interoperable <br />{" "}
                 decentralized web.
               </p>
-              <div className="mt-2 ">
+              <div className="mt-2 hero-btn-div ">
                 <button className="btn hero-btn  me-2   fw-bold rounded-pill">
                   Learn Parachains
                 </button>
-                <button className="btn hero-btn mt-sm-2 mt-0  fw-bold rounded-pill">
+                <button className="btn hero-btn   fw-bold rounded-pill">
                   Learn Cross-Chain
                 </button>
               </div>
             </div>
-            <div class="col-12 col-md-5 col-lg-6 mb-4 px-xl-5 d-flex flex-column justify-content-center align-items-center">
-              <div className="inner">
-                <img className="hero--img " src="../assets/outer.svg" alt="" />
+            <div class="col-12 col-md-5 col-lg-6 mb-4 px-xl-5 d-flex   align-items-center">
+            <ScrollRotate method={"perc"} >
+              <div className="outer col-md-6">             
+                
+                
+                <ScrollRotate method={"perc"} >
+                <img className=" w-100 inner-img " src="../assets/hero.png" alt="" />
+                </ScrollRotate>
+              
               </div>
+              </ScrollRotate> 
             </div>
           </div>
         </div>
