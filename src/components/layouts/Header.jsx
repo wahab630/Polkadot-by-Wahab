@@ -1,22 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./header.css";
-import Dropdown from 'react-bootstrap/Dropdown';
-import DropdownButton from 'react-bootstrap/DropdownButton';
+// import Dropdown from "react-bootstrap/Dropdown";
+// import DropdownButton from "react-bootstrap/DropdownButton";
 import { FaTwitter, FaGithub, FaDiscord } from "react-icons/fa";
 
 const Header = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg d-none d-sm-block  sticky-top border-bottom">
-        <div className="container">
-     
-    <DropdownButton id="dropdown-basic-button" title="EN" >
-      <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-      <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-      <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-    </DropdownButton>
- 
+        <div className="container"> EN
+          {/* <DropdownButton id="dropdown-basic-button" title="EN">
+            <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+            <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+            <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+          </DropdownButton> */}
 
           <button
             className="navbar-toggler"

@@ -366,3 +366,25 @@ body {
       padding: 15px 20px;
   }
 }
+// -----------------------------------Blog Page---------------------------
+
+.bpolkadot{
+  margin-top: 200px;
+  .card-img-top{
+      height: auto;
+      width: 100%;
+  }
+  .pinkcolor{
+      color:  #E6007AFF;
+  }
+}
+
+.Bsubscribe{
+  padding-top: 100px;
+  padding-bottom: 120px;
+  .sub-btn{
+      border: 1px solid #E6007AFF ;
+      color: #E6007AFF;
+      border-radius: 50px;
+  }
+}

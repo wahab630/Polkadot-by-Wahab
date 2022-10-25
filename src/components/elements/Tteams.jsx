@@ -12,7 +12,7 @@ const Tteams = () => {
             </h2>
           </div>
         </div>
-        <div className="row mt-4">
+        <div className="row mt-4 ">
           <div className="col-lg-4 col-md-6">
             <div className="card shadow border-0">
               <div className="card-body">

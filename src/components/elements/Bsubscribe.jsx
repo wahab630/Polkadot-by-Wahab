@@ -1,5 +1,5 @@
 import React from "react";
-import './bsubscribe.css'
+
 
 const Bsubscribe = () => {
   return (
