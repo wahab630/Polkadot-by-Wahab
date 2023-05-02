@@ -1,6 +1,8 @@
 import React from "react";
 import "./hero.css";
 import  { ScrollRotate } from 'react-scroll-rotate';
+import Commonbtn from "../utils/Commonbtn";
+
 
 const Hero = () => {
   return (
@@ -20,23 +22,18 @@ const Hero = () => {
                 decentralized web.
               </p>
               <div className="mt-2 hero-btn-div ">
-                <button className="btn hero-btn  me-2   fw-bold rounded-pill">
-                  Learn Parachains
-                </button>
-                <button className="btn hero-btn   fw-bold rounded-pill">
-                  Learn Cross-Chain
-                </button>
+                <Commonbtn name="Learn Parachains"/>
+                <span className="me-2 mt-2"></span>
+                <Commonbtn name="Learn Cross-Chain"/>
+               
               </div>
             </div>
             <div class="col-12 col-md-5 col-lg-6 mb-4 px-xl-5 d-flex   align-items-center">
             <ScrollRotate method={"perc"} >
-              <div className="outer col-md-6">             
-                
-                
+              <div className="outer col-md-6">            
                 <ScrollRotate method={"perc"} >
-                <img className=" w-100 inner-img " src="../assets/hero.png" alt="" />
-                </ScrollRotate>
-              
+                <img className=" w-100  " src="/assets/hero.png" alt="" />
+                </ScrollRotate>              
               </div>
               </ScrollRotate> 
             </div>

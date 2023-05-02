@@ -2,10 +2,11 @@ import React from 'react'
 import Bstart from '../components/elements/Bstart'
 import Buildeasily from '../components/elements/Buildeasily'
 import Buildgrant from '../components/elements/Buildgrant'
-import Buildhave from '../components/elements/Buildhave'
+
 import BuildPolkadot from '../components/elements/BuildPolkadot'
 
 import Buildtools from '../components/elements/Buildtools'
+import Commonbase from '../components/utils/Commonbase'
 
 const Build = () => {
   return (
@@ -15,7 +16,10 @@ const Build = () => {
     <Buildtools/>
     <Bstart/>
     <Buildgrant/>
-    <Buildhave/>
+    <Commonbase
+    heading="Have a question about building on Polkadot?"
+    btnName="Let's Connect"
+    />
     </>
   )
 }

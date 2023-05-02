@@ -13,8 +13,9 @@ import TScalable from '../components/elements/TScalable'
 import Tsection from '../components/elements/Tsection'
 import Tteams from '../components/elements/Tteams'
 import Ttransparent from '../components/elements/Ttransparent'
-import Twant from '../components/elements/Twant'
+
 import Txcm from '../components/elements/Txcm'
+import Commonbase from '../components/utils/Commonbase'
 
 const Technology = () => {
   return (
@@ -34,7 +35,10 @@ const Technology = () => {
     <Tgrandpa/>
     <Troadmap/>
     <Tteams/>
-    <Twant/>
+    <Commonbase
+    heading="Want to get started?"
+    btnName="Build on Polkadot"
+    />
     </>
   )
 }

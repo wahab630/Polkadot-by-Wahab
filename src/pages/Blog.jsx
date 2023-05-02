@@ -1,12 +1,16 @@
 import React from 'react'
 import Bpolkadot from '../components/elements/Bpolkadot'
-import Bsubscribe from '../components/elements/Bsubscribe'
+
+import Commonbase from '../components/utils/Commonbase'
 
 const Blog = () => {
   return (
     <>
     <Bpolkadot/>
-    <Bsubscribe/>
+    <Commonbase
+    heading="Subscribe to the newsletter to hear about updates and events."
+    btnName="Subscribe"
+    />
     </>
   )
 }

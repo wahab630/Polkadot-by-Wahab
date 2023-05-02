@@ -2,11 +2,13 @@ import React from 'react'
 import BlogSec from '../components/elements/BlogSec'
 import Founded from '../components/elements/Founded'
 import Hero from '../components/elements/Hero'
-import Join from '../components/elements/Join'
+
 import Network from '../components/elements/Network'
 import NetworkCards from '../components/elements/NetworkCards'
 import Opensource from '../components/elements/Opensource'
 import Section from '../components/elements/Section'
+import Commonbase from '../components/utils/Commonbase'
+
 
 const Home = () => {
   return (
@@ -18,7 +20,13 @@ const Home = () => {
     <Opensource/>
     <Founded/>
     <BlogSec/>
-    <Join/>
+   
+    <Commonbase 
+     heading="Want to get involved?"
+     btnName="Join the Community"
+     textOne="or learn about how to"
+     textTwo="  build on Polkadot"
+    />
     </>
   )
 }

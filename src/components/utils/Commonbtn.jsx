@@ -1,9 +1,11 @@
 import React from 'react'
 
-const Commonbtn = () => {
+const Commonbtn = (props) => {
   return (
     <>
-     
+     <button className='btn commonbtn'>
+        {props.name}
+     </button>
     </>
   )
 }

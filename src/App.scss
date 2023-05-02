@@ -1,4 +1,6 @@
 /* .acard :hover{ */
+$pink-color:#e6007aff;
+
 * {
   margin: 0;
   padding: 0;
@@ -17,18 +19,18 @@ body {
 .NC-bg {
   padding-bottom: 100px;
   .nc-img {
-    height: 152px;
-    width: 152px;
+    height: 212px;
+    width: 212px;
   }
   .nc-btn {
     background-color: transparent;
     color: white;
-    border: 1px solid #e6007aff;
+    border: 1px solid $pink-color;
   }
 }
 
 .open--bg {
-  background-color: #e6007aff;
+  background-color: $pink-color;
   padding-top: 100px;
   padding-bottom: 100px;
   .open--img {
@@ -38,7 +40,7 @@ body {
   .text-underline {
     position: relative;
 
-    .text-underline::after {
+    &::after {
       content: "";
       display: block;
       position: absolute;
@@ -51,10 +53,9 @@ body {
   }
 }
 .founded-bg {
-  background-image: url("./media/summit.jpg");
+  background: url("./media/summit.jpg")  no-repeat center;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  
   height: 60vh;
   opacity: 0.9;
   .founded-btn {
@@ -80,17 +81,7 @@ body {
     width: 32px;
   }
 }
-.join {
-  padding-top: 100px;
-  padding-bottom: 100px;
 
-  .join-btn {
-    border: 1px solid #e6007aff;
-    color: #e6007aff;
-    padding: 16px 20px;
-    border-radius: 2rem;
-  }
-}
 // ***********************************Technology Page*****************************
 .Tsalalable {
   height: 60vh;
@@ -268,16 +259,7 @@ body {
   padding-bottom: 90px;
 }
 
-.Twant {
-  padding-top: 100px;
-  padding-bottom: 120px;
-  .twant-btn {
-    border: 1px solid #e6007aff;
-    color: #e6007aff;
-    border-radius: 50px;
-    padding: 15px 20px;
-  }
-}
+
 // **********************************Community Page******************************
 
 .comjoin {
@@ -326,17 +308,7 @@ body {
 
 
 // ------------------------------------About page----------------------------
-.Ajoin {
-  padding-top: 100px;
-  padding-bottom: 100px;
 
-  .Ajoin-btn {
-    border: 1px solid #e6007aff;
-    color: #e6007aff;
-    padding: 16px 20px;
-    border-radius: 2rem;
-  }
-}
 
 .Atouch {
   padding-top: 90px;
@@ -386,5 +358,27 @@ body {
       border: 1px solid #E6007AFF ;
       color: #E6007AFF;
       border-radius: 50px;
+  }
+}
+// ----------------common---------------------
+.commonbtn{
+  padding: 16px 20px;
+  border-radius: 32px;
+  color:  #E6007AFF;
+  font-weight: bold;
+  background-color: transparent;
+  border: 1px solid  #E6007AFF;
+}
+
+.commonbase {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  .commonbase-btn {
+    border: 1px solid $pink-color;
+    color: $pink-color;
+    padding: 16px 20px;
+    background-color: transparent;
+    border-radius: 2rem;
   }
 }

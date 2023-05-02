@@ -4,47 +4,50 @@
   background-color: transparent;
   color: #e6007aff;
 }
-.outer{
-  background-image: url('../../media/outer.svg');
+.outer {
+  background-image: url("../../media/outer.svg");
   background-size: contain;
-  height: 540px;
- 
+  /* height: 540px; */
   position: relative;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
-
 }
-.inner-img{
+.inner-img {
   margin-top: 30px;
   margin-left: 5px;
+}
+.hero-btn-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 .btn:hover {
   background-color: #e6007aff;
   color: white;
+  outline: none;
 }
-.hero--h{
+.hero--h {
   font-size: 56px;
 }
-@media only screen and (max-width:768px){
-  .inner-img{
+@media only screen and (max-width: 768px) {
+  .inner-img {
     margin-top: 110px;
     margin-left: 30px;
   }
-  .hero-btn{
+  .hero-btn {
     margin-top: 5px;
   }
-  .hero--h{
+  .hero--h {
     font-size: 2rem;
   }
-  .hero-btn-div{
+  .hero-btn-div {
     display: flex;
     align-items: center;
     flex-direction: column;
-    
+    justify-content: space-between;
   }
 }
-
 
 /* .hero--img {
   height: 450px;

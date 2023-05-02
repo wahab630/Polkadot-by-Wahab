@@ -9,7 +9,7 @@ const NetworkCards = () => {
           <div className="row mb-4 justify-content-md-center justify-content-lg-around">
             <div className="col-12 col-md-6 col-lg-4 mb-md-2 text-lg-center">
               <span className="card bg-dark border-0 shadow-none">
-                <div className="px-md-3 pt-md-3 mx-4 mx-md-1 mx-lg-3">
+                <div className="">
                   <img
                     className="nc-img p-3"
                     src="https://polkadot.network/assets/img/icons/home-icon-token-1.svg?v=ea608e625d"
