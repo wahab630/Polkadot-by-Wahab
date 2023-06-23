@@ -1,28 +1,29 @@
 import React from "react";
 
 const BlogSec = () => {
-  
-
   const data = [
     {
-      img: "https://polkadot.network/content/images/2022/10/image1.png",
-      caption:"Parachain",
+      img: "assets/image1.webp",
+      caption: "Parachain",
       heading:
         " First Parachain Successfully Migrates from Kusama to  Polkadot",
       paragraph:
         " KILT Protocol's migration from Kusama to Polkadot is an important technical milestone and the first parachain      migration. Polkadot's 'canary network' model allows Web3      projects to test their technology in a real-world      environment before upgrading to stable production networks....",
     },
     {
-      img:"https://polkadot.network/content/images/2022/09/004-smol.png",
-      caption:"Polkadot",
-      heading:"Polkadot Roadmap Roundup",
-      paragraph:" A proposed roadmap for upcoming developments on Polkadot. Get the latest status on asynchronous backing, parathreads, XCMv3, governance, common-good parachains and more....",
+      img: "assets/image2.webp",
+      caption: "Polkadot",
+      heading: "Polkadot Roadmap Roundup",
+      paragraph:
+        " A proposed roadmap for upcoming developments on Polkadot. Get the latest status on asynchronous backing, parathreads, XCMv3, governance, common-good parachains and more....",
     },
     {
-      img:"https://polkadot.network/content/images/2022/08/image1.jpg",
-      caption:"Polkadot",
-      heading:"  Sub0, the Polkadot Developer Conference, comes to Lisbon in      November",
-      paragraph:"The two-day live sub0 conference will run on November      28th-29th. Featuring keynote presentations, breakout sessions, workshops &amp; side events. Sign up for ticket updates....",
+      img: "assets/image3.webp",
+      caption: "Polkadot",
+      heading:
+        "  Sub0, the Polkadot Developer Conference, comes to Lisbon in      November",
+      paragraph:
+        "The two-day live sub0 conference will run on November      28th-29th. Featuring keynote presentations, breakout sessions, workshops &amp; side events. Sign up for ticket updates....",
     },
   ];
 
@@ -38,32 +39,20 @@ const BlogSec = () => {
             </div>
           </div>
           <div className="row">
-            {
-            data.map((v, i) => {
+            {data.map((v, i) => {
               return (
                 <>
                   <div className="col-12 col-md-6 mb-3  col-lg-4 d-flex">
                     <div className="card border shadow">
                       <img className="card-img-top" src={v.img} alt="no" />
-                      <div className="card-body py-3">
+                      <div className="card-body pt-3 pb-5">
                         <span className="mb-2 d-block pinkcolor">
-                          {
-                            v.caption
-                          }
+                          {v.caption}
                         </span>
-                        <h5 className="fw-bold">{v.heading}</h5>
+                        <h5 className="fw-bold pb-2">{v.heading}</h5>
                         <div>
-                          <p className="mb-0"> {v.paragraph} </p>
-                        </div>
-                      </div>
-                      <div className="card-footer bg-white border-0">
-                        <div className="d-flex ">
-                          <img
-                            src="https://polkadot.network/content/images/2021/12/ghost_avatar_polkadot.png"
-                            alt=""
-                            className="avatar me-2"
-                          />
-                          <span>Polkadot</span>
+                          <p className="mb-0 opacity-75"> {v.paragraph} </p>
+                          {/* opacity kam ki to color change ho gya more desent view */}
                         </div>
                       </div>
                     </div>
@@ -71,8 +60,6 @@ const BlogSec = () => {
                 </>
               );
             })}
-
-          
           </div>
         </div>
       </div>

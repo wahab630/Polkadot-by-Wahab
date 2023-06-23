@@ -10,7 +10,7 @@ const Section = () => {
             <div className="col-12 col-md-6 col-lg-4 mb-4">
               <div className="text-center text-md-start">
                 <img
-                  src="https://polkadot.network/assets/img/icons/home-icon1.svg?v=ea608e625d"
+                  src="assets/home-icon1.svg"
                   alt=""
                   className="card--img mb-1"
                 />
@@ -31,7 +31,7 @@ const Section = () => {
             <div className="col-12 col-md-6 col-lg-4 mb-4">
               <div className="text-center text-md-start">
                 <img
-                  src="https://polkadot.network/assets/img/icons/home-icon2.svg?v=ea608e625d"
+                  src="assets/home-icon2.svg"
                   alt=""
                   className="card--img mb-1"
                 />
@@ -52,7 +52,7 @@ const Section = () => {
             <div className="col-12 col-md-6 col-lg-4 mb-4">
               <div className="text-center text-md-start">
                 <img
-                  src="https://polkadot.network/assets/img/icons/home-icon3.svg?v=ea608e625d"
+                  src="assets/home-icon3.svg"
                   alt=""
                   className="card--img mb-1"
                 />
@@ -74,7 +74,7 @@ const Section = () => {
             <div className="col-12 col-md-6 col-lg-4 mb-4">
               <div className="text-center text-md-start">
                 <img
-                  src="https://polkadot.network/assets/img/icons/home-icon4-b.svg?v=ea608e625d"
+                  src="assets/home-icon4.svg"
                   alt=""
                   className="card--img mb-1"
                 />
@@ -102,7 +102,7 @@ const Section = () => {
             <div className="col-12 col-md-6 col-lg-4 mb-4">
               <div className="text-center text-md-start">
                 <img
-                  src="https://polkadot.network/assets/img/icons/home-icon5.svg?v=ea608e625d"
+                  src="assets/home-icon5.svg"
                   alt=""
                   className="card--img mb-1"
                 />
@@ -123,7 +123,7 @@ const Section = () => {
             <div className="col-12 col-md-6 col-lg-4 mb-4">
               <div className="text-center text-md-start">
                 <img
-                  src="https://polkadot.network/assets/img/icons/home-icon6.svg?v=ea608e625d"
+                  src="assets/home-icon6.svg"
                   alt=""
                   className="card--img mb-1"
                 />

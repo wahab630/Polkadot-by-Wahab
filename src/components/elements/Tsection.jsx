@@ -4,14 +4,14 @@ import React from "react";
 const Tsection = () => {
   return (
     <>
-      <div className="tsection bg-dark">
+      <div className="tsection ">
         <div className="container pb-5">
           <div className="row ">
             <div className="col-md-6 col-lg-4 mb-sm-3 mb-3">
               <div className="card d-flex flex-row tsec-card rounded shadow border-0">
                 <div className="d-flex  align-items-center ms-3">
                   <img
-                    src="https://polkadot.network/assets/img/logos/logo-circle-github.svg?v=ea608e625d"
+                    src="assets/tl-3.svg"
                     className="t-card-img"
                     alt="no"
                   />
@@ -27,7 +27,7 @@ const Tsection = () => {
               <div className="card d-flex flex-row rounded shadow border-0">
                 <div className="d-flex  align-items-center ms-3">
                   <img
-                    src="https://polkadot.network/assets/img/logos/logo-circle-documentation.svg?v=ea608e625d"
+                    src="assets/tl-2.svg"
                     className="t-card-img"
                     alt="no"
                   />
@@ -43,7 +43,7 @@ const Tsection = () => {
               <div className="card d-flex flex-row rounded shadow border-0">
                 <div className="d-flex  align-items-center ms-3">
                   <img
-                    src="https://polkadot.network/assets/img/logos/logo-circle-element.svg?v=ea608e625d"
+                    src="assets/tl-1.svg"
                     className="t-card-img"
                     alt="no"
                   />
@@ -61,11 +61,7 @@ const Tsection = () => {
           <div className="row">
             <div className="col-lg-7 col-md-12 col-xl-8">
               <div className="Tsection-big-img">
-                {/* <img
-                  className="Tsection-big-img"
-                  src="https://polkadot.network/assets/img/dg-network-xl-2.svg?v=ea608e625d"
-                  alt=""
-                /> */}
+                
               </div>
             </div>
             <div className="col-lg-5 col-md-12 col-xl-4">

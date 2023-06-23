@@ -57,7 +57,7 @@ const Header = () => {
           <Link className="navbar-brand" to="/">
             <img
               className="logo"
-              src="https://polkadot.network/assets/img/logo-polkadot.svg?v=ea608e625d"
+              src="/assets/logo.svg"
               alt=""
             />
           </Link>

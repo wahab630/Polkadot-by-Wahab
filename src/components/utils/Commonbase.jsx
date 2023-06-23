@@ -18,7 +18,7 @@ const Commonbase = (props) => {
                 <span className="underline">
                   {props.textTwo}
                 </span>
-                .
+               .
               </span>
             </div>
           </div>

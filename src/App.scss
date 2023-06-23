@@ -19,8 +19,9 @@ body {
 .NC-bg {
   padding-bottom: 100px;
   .nc-img {
-    height: 212px;
-    width: 212px;
+    vertical-align: middle;
+    height: 200px;
+    width: 200px;
   }
   .nc-btn {
     background-color: transparent;
@@ -30,12 +31,12 @@ body {
 }
 
 .open--bg {
-  background-color: $pink-color;
+  background: linear-gradient(177deg,#e6007a,#dd5fe0);
   padding-top: 100px;
   padding-bottom: 100px;
   .open--img {
-    height: 70px;
-    width: 70px;
+    vertical-align: middle;
+    width: 80px;
   }
   .text-underline {
     position: relative;
@@ -88,14 +89,15 @@ body {
 }
 
 .tsection {
+  background-color: #172026;
   padding-bottom: 100px;
   .card {
     position: relative;
     top: -20px;
   }
   .t-card-img {
-    height: 42px;
-    width: 43px;
+   
+    width: 50px;
   }
   .card{
     position: relative;
@@ -103,15 +105,21 @@ body {
       top: -30px;
     }
   }
+  
   .Tsection-big-img {
-    background-image: url("https://polkadot.network/assets/img/dg-network-xl-2.svg?v=ea608e625d");
+    overflow: hidden;
+    min-height: 400px;
+    background-image: url("../public/assets/network11.svg");
+    background-repeat: no-repeat;   
+    background-position: 50%;
     background-size: cover;
-    height: 80vh;
-    background-position: center;
+    // height: 80vh;
+    
   }
 }
 .Tnetwork {
-  background-color: #e6007aff;
+  background: linear-gradient(177deg,#e6007a,#dd5fe0);
+
   padding-top: 150px;
   padding-bottom: 200px;
 }
@@ -360,7 +368,7 @@ body {
       border-radius: 50px;
   }
 }
-// ----------------common---------------------
+// ------------------------------------------Commons---------------------
 .commonbtn{
   padding: 16px 20px;
   border-radius: 32px;

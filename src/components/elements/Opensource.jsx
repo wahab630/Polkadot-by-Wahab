@@ -29,28 +29,28 @@ const Opensource = () => {
             <div className="col-4 col-lg col-md-2 mb-4 mb-md-0 d-flex justify-content-start justify-content-lg-center">
               <img
                 className="open--img"
-                src="https://polkadot.network/assets/img/logos/logo-circle-parity-white.svg?v=ea608e625d"
+                src="assets/ti-1.svg"
                 alt=""
               />
             </div>
             <div className="col-4 col-lg col-md-2 mb-4 mb-md-0 d-flex justify-content-start justify-content-lg-center">
               <img
                 className="open--img"
-                src="https://polkadot.network/assets/img/logos/logo-circle-chainsafe-white.svg?v=ea608e625d"
+                src="assets/ti-2.svg"
                 alt=""
               />
             </div>
             <div className="col-4 col-lg col-md-2 mb-4 mb-md-0 d-flex justify-content-start justify-content-lg-center">
               <img
                 className="open--img"
-                src="https://polkadot.network/assets/img/logos/logo-circle-soramitsu-white.svg?v=ea608e625d"
+                src="assets/ti-3.svg"
                 alt=""
               />
             </div>
             <div className="col-4 col-lg col-md-2 mb-4 mb-md-0 d-flex justify-content-start justify-content-lg-center">
               <img
                 className="open--img"
-                src="https://polkadot.network/assets/img/logos/logo-circle-polkadot-js-white.svg?v=ea608e625d"
+                src="assets/ti-4.svg"
                 alt=""
               />
             </div>

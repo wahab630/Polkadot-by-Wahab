@@ -11,8 +11,8 @@ const NetworkCards = () => {
               <span className="card bg-dark border-0 shadow-none">
                 <div className="">
                   <img
-                    className="nc-img p-3"
-                    src="https://polkadot.network/assets/img/icons/home-icon-token-1.svg?v=ea608e625d"
+                    className="nc-img "
+                    src="assets/home-icon-token-1.svg"
                     alt=""
                   />
                 </div>
@@ -34,8 +34,8 @@ const NetworkCards = () => {
               <span className="card bg-dark border-0  shadow-none">
                 <div className="px-md-3 pt-md-3 mx-4 mx-md-1 mx-lg-3">
                   <img
-                    className="nc-img p-3"
-                    src="https://polkadot.network/assets/img/icons/home-icon-token-2.svg?v=ea608e625d"
+                    className="nc-img "
+                    src="assets/home-icon-token-2.svg"
                     alt=""
                   />
                 </div>
@@ -56,8 +56,8 @@ const NetworkCards = () => {
               <span className="card bg-dark border-0  shadow-none">
                 <div className="px-md-3 pt-md-3 mx-4 mx-md-1 mx-lg-3">
                   <img
-                    className="nc-img p-3"
-                    src="https://polkadot.network/assets/img/icons/home-icon-token-3.svg?v=ea608e625d"
+                    className="nc-img "
+                    src="assets/home-icon-token-3.svg"
                     alt=""
                   />
                 </div>
