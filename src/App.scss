@@ -127,9 +127,8 @@ body {
   padding-top: 100px;
   padding-bottom: 100px;
   
-  .tconnecting-card-img {
-    height: 150px;
-    width: 150px;
+  .tconnecting-card-img {    
+    width: 128px;
   }
   @media  only screen and (max-width:768px){
     .tconnecting-card-1{
@@ -150,6 +149,7 @@ body {
   .Tbuild-img {
     width: 100%;
     height: auto;
+    border-radius: 20px;
   }
 
   .text-underline {
@@ -181,7 +181,7 @@ body {
   }
 }
 .Tground {
-  background-color: #e6007aff;
+  background: linear-gradient(177deg,#e6007a,#dd5fe0);
   padding-top: 150px;
   padding-bottom: 200px;
   @media only screen and (max-width:768px){
@@ -251,7 +251,7 @@ body {
   }
 }
 .Troadmap {
-  background-color: #e6007aff;
+  background: linear-gradient(177deg,#e6007a,#dd5fe0);
   padding-top: 150px;
   padding-bottom: 200px;
   .troad-btn {

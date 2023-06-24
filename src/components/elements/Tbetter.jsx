@@ -23,9 +23,9 @@ const Tbetter = () => {
               blockchain from day one.
             </p>
           </div>
-          <div className="col-lg-4 col-md-6 tbetter-sec d-flex align-items-center order-1 order-lg-2">
+          <div className="col-lg-6 col-md-6 tbetter-sec d-flex align-items-center  order-1 order-lg-2">
             <img
-              src="https://polkadot.network/assets/img/dg-security-model.svg?v=ea608e625d"
+              src="assets/td1.svg"
               alt="no"
               className="tbetter-img   "
             />

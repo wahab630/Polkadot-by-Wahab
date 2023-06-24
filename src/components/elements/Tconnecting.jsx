@@ -16,7 +16,7 @@ const Tconnecting = () => {
           <div className="row">
             <div className="col-md-6 col-lg-3 tconnecting-card-1">
               <div className="card border-0 " >
-                <img className=" tconnecting-card-img" src="https://polkadot.network/assets/img/icons/glossary/icon-glossary-relay-chain.svg?v=ea608e625d"  alt=".no.." />
+                <img className=" tconnecting-card-img" src="assets/tconn1.svg"  alt=".no.." />
                 <div className="card-body px-0">
                   <h5 className="card-title fw-bold">Relay Chain</h5>
                   <p className="card-text">
@@ -27,7 +27,7 @@ const Tconnecting = () => {
             </div>
             <div className="col-md-6 col-lg-3 tconnecting-card-1">
               <div className="card border-0 " >
-                <img className=" tconnecting-card-img" src="https://polkadot.network/assets/img/icons/glossary/icon-glossary-parachain.svg?v=ea608e625d"  alt=".no.." />
+                <img className=" tconnecting-card-img" src="assets/tconn2.svg"  alt=".no.." />
                 <div className="card-body px-0">
                   <h5 className="card-title fw-bold">Parachains</h5>
                   <p className="card-text">
@@ -37,7 +37,7 @@ const Tconnecting = () => {
             </div>
             <div className="col-md-6 col-lg-3 tconnecting-card-1">
               <div className="card border-0 " >
-                <img className=" tconnecting-card-img" src="https://polkadot.network/assets/img/icons/glossary/icon-glossary-parathread.svg?v=ea608e625d"  alt=".no.." />
+                <img className=" tconnecting-card-img" src="assets/tconn3.svg"  alt=".no.." />
                 <div className="card-body px-0">
                   <h5 className="card-title fw-bold">Parathreads</h5>
                   <p className="card-text">
@@ -47,7 +47,7 @@ const Tconnecting = () => {
             </div>
             <div className="col-md-6 col-lg-3 tconnecting-card-1 ">
               <div className="card border-0" >
-                <img className=" tconnecting-card-img" src="https://polkadot.network/assets/img/icons/glossary/icon-glossary-bridge.svg?v=ea608e625d"  alt=".no.." />
+                <img className=" tconnecting-card-img" src="assets/tconn4.svg"  alt=".no.." />
                 <div className="card-body px-0">
                   <h5 className="card-title fw-bold">Bridges</h5>
                   <p className="card-text">
@@ -66,17 +66,17 @@ const Tconnecting = () => {
           <div className="row">
             <div className="col-md-6 col-lg-3 tconnecting-card-1 ">
               <div className="card border-0 " >
-                <img className=" tconnecting-card-img" src="https://polkadot.network/assets/img/icons/glossary/icon-glossary-nominator.svg?v=ea608e625d"  alt=".no.." />
+                <img className=" tconnecting-card-img" src="assets/tconn5.svg"  alt=".no.." />
                 <div className="card-body px-0">
                   <h5 className="card-title fw-bold">Nominators</h5>
                   <p className="card-text">
-                  Secure the Relay Chain by selecting trustworthy validators and staking dots.                  </p>
+                  Secure the Relay Chain by selecting trustworthy validators and staking dots.  </p>
                 </div>
               </div>
             </div>
             <div className="col-md-6 col-lg-3 tconnecting-card-1 ">
               <div className="card border-0 " >
-                <img className=" tconnecting-card-img" src="https://polkadot.network/assets/img/icons/glossary/icon-glossary-validator.svg?v=ea608e625d"  alt=".no.." />
+                <img className=" tconnecting-card-img" src="assets/tconn6.svg"  alt=".no.." />
                 <div className="card-body px-0">
                   <h5 className="card-title fw-bold">Validators</h5>
                   <p className="card-text">
@@ -85,7 +85,7 @@ const Tconnecting = () => {
             </div>
             <div className="col-md-6 col-lg-3 tconnecting-card-1">
               <div className="card border-0 " >
-                <img className=" tconnecting-card-img" src="https://polkadot.network/assets/img/icons/glossary/icon-glossary-collator.svg?v=ea608e625d"  alt=".no.." />
+                <img className=" tconnecting-card-img" src="assets/tconn7.svg"  alt=".no.." />
                 <div className="card-body px-0">
                   <h5 className="card-title fw-bold">Collators</h5>
                   <p className="card-text">
@@ -105,7 +105,7 @@ const Tconnecting = () => {
           <div className="row">           
             <div className="col-md-6 col-lg-3 tconnecting-card-1 ">
               <div className="card border-0 " >
-                <img className=" tconnecting-card-img" src="https://polkadot.network/assets/img/icons/glossary/icon-glossary-council-member-2.svg?v=ea608e625d"  alt=".no.." />
+                <img className=" tconnecting-card-img" src="assets/tconn8.svg"  alt=".no.." />
                 <div className="card-body px-0">
                   <h5 className="card-title fw-bold">Council Members</h5>
                   <p className="card-text">
@@ -114,7 +114,7 @@ const Tconnecting = () => {
             </div>
             <div className="col-md-6 col-lg-3 tconnecting-card-1 ">
               <div className="card border-0 " >
-                <img className=" tconnecting-card-img" src="https://polkadot.network/assets/img/icons/glossary/icon-glossary-technical-committee-2.svg?v=ea608e625d"  alt=".no.." />
+                <img className=" tconnecting-card-img" src="assets/tconn9.svg"  alt=".no.." />
                 <div className="card-body px-0">
                   <h5 className="card-title fw-bold">Technical Committee</h5>
                   <p className="card-text">

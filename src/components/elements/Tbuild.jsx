@@ -7,12 +7,15 @@ const Tbuild = () => {
       <div className="tbuild bg-gray">
         <div className="container">
           <div className="row">
-            <div className="col-12 col-md-10 col-lg-5 mb-3">
+            <div className="col-12 col-md-10 col-lg-5 mb-3 d-flex align-items-center ">
+              
               <img
-                src="https://polkadot.network/assets/img/dg-stack.svg?v=ea608e625d"
+                src="assets/tbuild.png"
                 alt="no"
-                className="Tbuild-img"
+                className="Tbuild-img "
               />
+              
+              
             </div>
             <div className="col-md-12 col-lg-6">
               <span className="h2 d-block mb-4 fw-bold">

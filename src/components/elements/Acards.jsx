@@ -41,7 +41,7 @@ const Acards = () => {
               </div>
             </div>
             <div className="col-lg-4">
-              <div className="card shadow border-0 acard-cards ">
+              <div className="card shadow border-0 acard-cards h-100">
                 <div className="card-body">
                   <h3 className="fw-bold">Peter Czaban</h3>
                   <p>Founder</p>

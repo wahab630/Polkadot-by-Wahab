@@ -43,7 +43,7 @@ const Tparachains = () => {
                 Single transaction
               </p>
               <img
-                src="https://polkadot.network/assets/img/dg-transactions-old.svg?v=ea608e625d"
+                src="assets/tpara1.svg"
                 alt="no"
                 className=" tparachains-img mb-2"
               />
@@ -55,7 +55,7 @@ const Tparachains = () => {
                 Multi parallelized transactions
               </p>
               <img
-                src="https://polkadot.network/assets/img/dg-transactions-new.svg?v=ea608e625d"
+                src="assets/tpara2.svg"
                 alt="no"
                 className="tparachains-img mb-2"
               />

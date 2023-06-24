@@ -8,7 +8,7 @@ const Ttransparent = () => {
         <div className="row ">
           <div className="col-lg-6 col-md-6 d-flex align-items-center ">
             <img
-              src="https://polkadot.network/assets/img/dg-governance.svg?v=ea608e625d"
+              src="assets/td1.svg"
               alt="no"
               className="ttransparent-img d-block"
             />

@@ -21,9 +21,9 @@ const Tgreen = () => {
               analyzed in recent research.
             </p>
           </div>
-          <div className="col-lg-4 col-md-6 d-flex align-items-center ">
+          <div className="col-lg-6 col-md-6 d-flex align-items-center ">
             <img
-              src="https://polkadot.network/assets/img/dg-green-energy.svg?v=ea608e625d"
+              src="assets/td3.svg"
               alt="no"
               className="tgreen-img d-block"
             />

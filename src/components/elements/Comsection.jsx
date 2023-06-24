@@ -10,7 +10,7 @@ const Comsection = () => {
               <div className="card d-flex flex-row rounded shadow border-0">
                 <div className="d-flex  align-items-center ms-3">
                   <img
-                    src="https://polkadot.network/assets/img/logos/logo-circle-twitter.svg?v=ea608e625d"
+                    src="assets/tl-2.svg"
                     className="t-card-img"
                     alt="no"
                   />
@@ -26,7 +26,7 @@ const Comsection = () => {
               <div className="card d-flex flex-row rounded shadow border-0">
                 <div className="d-flex  align-items-center ms-3">
                   <img
-                    src="https://polkadot.network/assets/img/logos/logo-circle-newsletter.svg?v=ea608e625d"
+                    src="assets/tl-1.svg"
                     className="t-card-img"
                     alt="no"
                   />
@@ -42,7 +42,7 @@ const Comsection = () => {
               <div className="card d-flex flex-row rounded shadow border-0">
                 <div className="d-flex  align-items-center ms-3">
                   <img
-                    src="https://polkadot.network/assets/img/logos/logo-circle-reddit.svg?v=ea608e625d"
+                    src="assets/tl-3.svg"
                     className="t-card-img"
                     alt="no"
                   />
@@ -60,7 +60,7 @@ const Comsection = () => {
               <div className="card d-flex flex-row rounded shadow border-0">
                 <div className="d-flex  align-items-center ms-3">
                   <img
-                    src="https://polkadot.network/assets/img/logos/logo-circle-discord.svg?v=ea608e625d"
+                    src="assets/tl-2.svg"
                     className="t-card-img"
                     alt="no"
                   />
@@ -76,7 +76,7 @@ const Comsection = () => {
               <div className="card d-flex flex-row rounded shadow border-0">
                 <div className="d-flex  align-items-center ms-3">
                   <img
-                    src="https://polkadot.network/assets/img/logos/logo-circle-github.svg?v=ea608e625d"
+                    src="assets/tl-1.svg"
                     className="t-card-img"
                     alt="no"
                   />
@@ -92,7 +92,7 @@ const Comsection = () => {
               <div className="card d-flex flex-row rounded shadow border-0">
                 <div className="d-flex  align-items-center ms-3">
                   <img
-                    src="https://polkadot.network/assets/img/logos/logo-circle-element.svg?v=ea608e625d"
+                    src="assets/tl-3.svg"
                     className="t-card-img"
                     alt="no"
                   />
@@ -111,7 +111,7 @@ const Comsection = () => {
                 <div className="card d-flex flex-row rounded shadow border-0">
                   <div className="d-flex  align-items-center ms-3">
                     <img
-                      src="https://polkadot.network/assets/img/logos/logo-circle-documentation.svg?v=ea608e625d"
+                      src="assets/tl-2.svg"
                       className="t-card-img"
                       alt="no"
                     />
@@ -127,7 +127,7 @@ const Comsection = () => {
                 <div className="card d-flex flex-row rounded shadow border-0">
                   <div className="d-flex  align-items-center ms-3">
                     <img
-                      src="https://polkadot.network/assets/img/logos/logo-circle-youtube.svg?v=ea608e625d"
+                      src="assets/tl-1.svg"
                       className="t-card-img"
                       alt="no"
                     />

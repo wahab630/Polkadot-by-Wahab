@@ -57,7 +57,7 @@ const Header = () => {
           <Link className="navbar-brand" to="/">
             <img
               className="logo"
-              src="/assets/logo.svg"
+              src="assets/logo.svg"
               alt=""
             />
           </Link>

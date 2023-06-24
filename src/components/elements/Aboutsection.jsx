@@ -11,7 +11,7 @@ const Aboutsection = () => {
               <div className="card d-flex flex-row rounded shadow border-0 mb-3">
                 <div className="d-flex  align-items-center ms-3">
                   <img
-                    src="https://polkadot.network/assets/img/logos/logo-circle-element.svg?v=ea608e625d"
+                    src="assets/tl-2.svg"
                     className="t-card-img"
                     alt="no"
                   />
@@ -30,7 +30,7 @@ const Aboutsection = () => {
               <div className="card d-flex flex-row rounded shadow mb-3 border-0">
                 <div className="d-flex  align-items-center ms-3">
                   <img
-                    src="https://polkadot.network/assets/img/logos/logo-circle-newsletter.svg?v=ea608e625d"
+                    src="assets/tl-1.svg"
                     className="t-card-img"
                     alt="no"
                   />
@@ -49,7 +49,7 @@ const Aboutsection = () => {
               <div className="card d-flex flex-row rounded shadow mb-3 border-0">
                 <div className="d-flex  align-items-center ms-3">
                   <img
-                    src="https://polkadot.network/assets/img/logos/logo-circle-chat.svg?v=ea608e625d"
+                    src="assets/tl-3.svg"
                     className="t-card-img"
                     alt="no"
                   />

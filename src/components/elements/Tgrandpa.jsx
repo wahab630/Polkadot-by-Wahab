@@ -8,7 +8,7 @@ const Tgrandpa = () => {
         <div className="row ">
           <div className="col-lg-6 col-md-6 d-flex align-items-center ">
             <img
-              src="https://polkadot.network/assets/img/dg-consensus.svg?v=ea608e625d"
+              src="assets/td3.svg"
               alt="no"
               className="tgrandpa-img d-block"
             />
